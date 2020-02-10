@@ -1,0 +1,14 @@
+[
+	{
+		"img": "icon PHP Hosting_zendguard.svg",
+		"text": "PHP Zend Guard Loader"
+	},
+	{
+		"img": "icon PHP Hosting_composer.svg",
+		"text": "PHP Composer"
+	},
+	{
+		"img": "icon PHP Hosting_ioncube.svg",
+		"text": "PHP ionCube Loader"
+	}
+]

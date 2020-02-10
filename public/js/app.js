@@ -1782,6 +1782,16 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _json_niagahoster_benefits_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @json/niagahoster-benefits.json */ "./resources/assets/json/niagahoster-benefits.json");
+var _json_niagahoster_benefits_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/niagahoster-benefits.json */ "./resources/assets/json/niagahoster-benefits.json", 1);
+/* harmony import */ var _json_hosting_features_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @json/hosting-features.json */ "./resources/assets/json/hosting-features.json");
+var _json_hosting_features_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/hosting-features.json */ "./resources/assets/json/hosting-features.json", 1);
+/* harmony import */ var _json_hosting_packages_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @json/hosting-packages.json */ "./resources/assets/json/hosting-packages.json");
+var _json_hosting_packages_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/hosting-packages.json */ "./resources/assets/json/hosting-packages.json", 1);
+/* harmony import */ var _json_hosting_benefits_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @json/hosting-benefits.json */ "./resources/assets/json/hosting-benefits.json");
+var _json_hosting_benefits_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/hosting-benefits.json */ "./resources/assets/json/hosting-benefits.json", 1);
+/* harmony import */ var _json_hosting_bundles_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @json/hosting-bundles.json */ "./resources/assets/json/hosting-bundles.json");
+var _json_hosting_bundles_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/hosting-bundles.json */ "./resources/assets/json/hosting-bundles.json", 1);
 //
 //
 //
@@ -1792,7 +1802,148 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+
 /* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      hostingPackages: _json_hosting_packages_json__WEBPACK_IMPORTED_MODULE_2__ || [],
+      hostingFeatures: _json_hosting_features_json__WEBPACK_IMPORTED_MODULE_1__ || [],
+      hostingBenefits: _json_hosting_benefits_json__WEBPACK_IMPORTED_MODULE_3__ || [],
+      hostingBundles: _json_hosting_bundles_json__WEBPACK_IMPORTED_MODULE_4__ || [],
+      benefits: _json_niagahoster_benefits_json__WEBPACK_IMPORTED_MODULE_0__ || []
+    };
+  },
+  filters: {
+    imageUrl: function imageUrl(fileName) {
+      return fileName ? __webpack_require__("./resources/assets/svg sync recursive ^\\.\\/.*$")("./" + fileName) : "";
+    }
+  },
   mounted: function mounted() {
     console.log("Component mounted.");
   }
@@ -1881,6 +2032,25 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("Component mounted.");
@@ -1898,6 +2068,8 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _json_Header_menus_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @json/Header/menus.json */ "./resources/assets/json/Header/menus.json");
+var _json_Header_menus_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/Header/menus.json */ "./resources/assets/json/Header/menus.json", 1);
 //
 //
 //
@@ -1909,7 +2081,24 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
 /* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      menus: _json_Header_menus_json__WEBPACK_IMPORTED_MODULE_0__ || []
+    };
+  },
   mounted: function mounted() {
     console.log("Component mounted.");
   }
@@ -32784,18 +32973,216 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-6" }, [
+        _c("h1", { staticClass: "text-montserrat-bold" }, [
+          _vm._v("PHP Hosting")
+        ]),
+        _vm._v(" "),
+        _c("p", { staticClass: "text-montserrat-regular" }, [
+          _vm._v(
+            "\n                Cepat, handal, penuh dengan modul PHP yang Anda butuhkan\n            "
+          )
+        ]),
+        _vm._v(" "),
+        _c(
+          "ul",
+          _vm._l(_vm.benefits, function(benefit, idx) {
+            return _c("li", { key: "benefit" + idx }, [
+              _c("i", {
+                staticClass: "fa",
+                class: benefit.checked ? "fa-checked" : "fa-close"
+              }),
+              _vm._v(
+                "\n                    " +
+                  _vm._s(benefit.text) +
+                  "\n                "
+              )
+            ])
+          }),
+          0
+        )
+      ]),
+      _vm._v(" "),
+      _vm._m(0)
+    ]),
+    _vm._v(" "),
+    _c(
+      "div",
+      { staticClass: "row" },
+      _vm._l(_vm.hostingFeatures, function(feature, idx) {
+        return _c(
+          "div",
+          { key: "feature" + idx, staticClass: "col-md-4 col-sm-6 col-xs-12" },
+          [
+            _c("img", {
+              staticClass: "display-block",
+              attrs: { src: _vm._f("imageUrl")(feature.img) }
+            }),
+            _vm._v("\n            " + _vm._s(feature.text) + "\n        ")
+          ]
+        )
+      }),
+      0
+    ),
+    _vm._v(" "),
+    _vm._m(1),
+    _vm._v(" "),
+    _c(
+      "section",
+      { staticClass: "row" },
+      _vm._l(_vm.hostingPackages, function(hostingPackage, idx) {
+        return _c(
+          "div",
+          { key: "package" + idx, staticClass: "col-md-3 col-sm-6" },
+          [
+            _c("h2", [_vm._v(_vm._s(hostingPackage.name))]),
+            _vm._v(" "),
+            _c("p", [
+              _c("del", [
+                _vm._v(
+                  _vm._s(hostingPackage.currency) +
+                    "\n                    " +
+                    _vm._s(hostingPackage.priceBeforeDiscount)
+                )
+              ]),
+              _vm._v(" "),
+              _c("ins", [
+                _vm._v(
+                  _vm._s(hostingPackage.currency) +
+                    "\n                    " +
+                    _vm._s(hostingPackage.priceAfterDiscount) +
+                    "/\n                    " +
+                    _vm._s(hostingPackage.subscriptionFrequency) +
+                    "\n                "
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v(_vm._s(hostingPackage.userCount) + " Pengguna Terdaftar")
+            ]),
+            _vm._v(" "),
+            _c(
+              "ul",
+              [
+                _c("li", { staticClass: "text-uppercase" }, [
+                  _vm._v(
+                    "\n                    " +
+                      _vm._s(hostingPackage.resourcePower) +
+                      "X resource power\n                "
+                  )
+                ]),
+                _vm._v(" "),
+                _vm._l(hostingPackage.benefits, function(benefit, idx) {
+                  return _c("li", { key: "benefit" + idx }, [
+                    _c("span", { domProps: { innerHTML: _vm._s(benefit) } })
+                  ])
+                })
+              ],
+              2
+            )
+          ]
+        )
+      }),
+      0
+    ),
+    _vm._v(" "),
+    _c("section", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _vm._v(
+          "\n            Powerful dengan limit PHP yang lebih besar\n        "
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-5 col-md-offset-1" }, [
+        _c(
+          "ul",
+          _vm._l(_vm.hostingBenefits.slice(0, 3), function(
+            hostingBenefit,
+            idx
+          ) {
+            return _c("li", [
+              _c("i", {
+                staticClass: "fa",
+                class: hostingBenefit.checked ? "fa-checked" : "fa-close"
+              }),
+              _vm._v(
+                "\n                    " +
+                  _vm._s(hostingBenefit.text) +
+                  "\n                "
+              )
+            ])
+          }),
+          0
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-offset-1 col-md-5" }, [
+        _c(
+          "ul",
+          _vm._l(_vm.hostingBenefits.slice(3, 6), function(
+            hostingBenefit,
+            idx
+          ) {
+            return _c("li", [
+              _c("i", {
+                staticClass: "fa",
+                class: hostingBenefit.checked ? "fa-checked" : "fa-close"
+              }),
+              _vm._v(
+                "\n                    " +
+                  _vm._s(hostingBenefit.text) +
+                  "\n                "
+              )
+            ])
+          }),
+          0
+        )
+      ])
+    ]),
+    _vm._v(" "),
+    _c(
+      "section",
+      { staticClass: "row" },
+      _vm._l(_vm.hostingBundles, function(bundle, idx) {
+        return _c("div", { staticClass: "col-md-4 col-sm-6" }, [
+          _c("img", {
+            staticClass: "display-block",
+            attrs: { src: _vm._f("imageUrl")(bundle.img) }
+          }),
+          _vm._v(" "),
+          _c("strong", { staticClass: "display-block" }, [
+            _vm._v(_vm._s(bundle.title))
+          ]),
+          _vm._v("\n            " + _vm._s(bundle.description) + "\n        ")
+        ])
+      }),
+      0
+    )
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-12" }, [
-          _vm._v("\n            ini home\n        ")
-        ])
+    return _c("div", { staticClass: "col-md-6" }, [
+      _c("img", {
+        attrs: { src: __webpack_require__(/*! @svg/illustration banner PHP hosting-01.svg */ "./resources/assets/svg/illustration banner PHP hosting-01.svg") }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-8 col-md-offset-2" }, [
+        _c("h2", [_vm._v("Paket Hosting Singapura yang tepat")]),
+        _vm._v(" "),
+        _c("p", [_vm._v("Diskon 40% + Domain dan SSL Gratis untuk Anda")])
       ])
     ])
   }
@@ -32893,11 +33280,35 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-3" }, [
-          _vm._v("\n\t\t\tini contact\n\t\t")
+        _c("div", { staticClass: "col-md-6" }, [
+          _c("i", { staticClass: "fa fa-bookmark" }),
+          _vm._v(" "),
+          _c("p", { staticClass: "text-capitalize" }, [
+            _vm._v(
+              "\n\t\t\t\tGratis Ebook 9 cara cerdas menggunakan domain\n\t\t\t"
+            )
+          ]),
+          _vm._v("\n\t\t\t[x]\n\t\t")
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-md-9" })
+        _c("div", { staticClass: "col-md-6" }, [
+          _c("ul", [
+            _c("li", [
+              _c("i", { staticClass: "fa fa-phone" }),
+              _vm._v("\n\t\t\t\t\t0274-5305505\n\t\t\t\t")
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c("i", { staticClass: "fa fa-message" }),
+              _vm._v("\n\t\t\t\t\tLive Chat\n\t\t\t\t")
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c("i", { staticClass: "fa fa-circle-user" }),
+              _vm._v("\n\t\t\t\t\tMember Area\n\t\t\t\t")
+            ])
+          ])
+        ])
       ])
     ])
   }
@@ -32923,21 +33334,37 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row" }, [
+      _vm._m(0),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-9" }, [
+        _c("nav", [
+          _c(
+            "ul",
+            _vm._l(_vm.menus, function(menuItem, idx) {
+              return _c("li", { key: "menu" + idx }, [
+                _vm._v(
+                  "\n\t\t\t\t\t\t" +
+                    _vm._s(menuItem || "Menu text") +
+                    "\n\t\t\t\t\t"
+                )
+              ])
+            }),
+            0
+          )
+        ])
+      ])
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-3" }, [
-          _vm._v("\n\t\t\tini nav\n\t\t")
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-md-9" })
-      ])
+    return _c("div", { staticClass: "col-md-3" }, [
+      _c("img", { attrs: { src: __webpack_require__(/*! @images/logo.png */ "./resources/assets/images/logo.png") } })
     ])
   }
 ]
@@ -45104,6 +45531,17 @@ module.exports = function(module) {
 
 /***/ }),
 
+/***/ "./resources/assets/images/logo.png":
+/*!******************************************!*\
+  !*** ./resources/assets/images/logo.png ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/logo.png?925857eab9870a57031e62ffa7ddfa6d";
+
+/***/ }),
+
 /***/ "./resources/assets/js/app.js":
 /*!************************************!*\
   !*** ./resources/assets/js/app.js ***!
@@ -45601,6 +46039,72 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/assets/json/Header/menus.json":
+/*!*************************************************!*\
+  !*** ./resources/assets/json/Header/menus.json ***!
+  \*************************************************/
+/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("[\"Hosting\",\"Domain\",\"Server\",\"Website\",\"Afiliasi\",\"Promo\",\"Pembayaran\",\"Review\",\"Kontak\",\"Blog\"]");
+
+/***/ }),
+
+/***/ "./resources/assets/json/hosting-benefits.json":
+/*!*****************************************************!*\
+  !*** ./resources/assets/json/hosting-benefits.json ***!
+  \*****************************************************/
+/*! exports provided: 0, 1, 2, 3, 4, 5, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("[{\"checked\":true,\"text\":\"max execution time 300s\"},{\"checked\":true,\"text\":\"max execution time 300s\"},{\"checked\":true,\"text\":\"php memory limit 1024 MB\"},{\"checked\":true,\"text\":\"post max size 128 MB\"},{\"checked\":true,\"text\":\"upload max filesize 128 MB\"},{\"checked\":true,\"text\":\"max input vars 2500\"}]");
+
+/***/ }),
+
+/***/ "./resources/assets/json/hosting-bundles.json":
+/*!****************************************************!*\
+  !*** ./resources/assets/json/hosting-bundles.json ***!
+  \****************************************************/
+/*! exports provided: 0, 1, 2, 3, 4, 5, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("[{\"img\":\"icon PHP Hosting_PHP Semua Versi.svg\",\"title\":\"PHP Semua Versi\",\"description\":\"Pilih mulai dari versi PHP 5.3 s/d PHP 7. Ubah sesuka Anda!\"},{\"img\":\"icon PHP Hosting_My SQL.svg\",\"title\":\"MySQL Versi 5.6\",\"description\":\"Nikmati MySQL versi terbaru, tercepat dan kaya akan fitur.\"},{\"img\":\"icon PHP Hosting_CPanel.svg\",\"title\":\"Panel Hosting cPanel\",\"description\":\"Kelola website dengan panel canggih yang familiar di hati Anda.\"},{\"img\":\"icon PHP Hosting_garansi uptime.svg\",\"title\":\"Garansi Uptime 99.9%\",\"description\":\"Data center yang mendukung kelangsungan website Anda 24/7.\"},{\"img\":\"icon PHP Hosting_InnoDB.svg\",\"title\":\"Database InnoDB Unlimited\",\"description\":\"Jumlah dan ukuran database yang tumbuh sesuai kebutuhan Anda.\"},{\"img\":\"icon PHP Hosting_My SQL remote.svg\",\"title\":\"Wildcard Remote MySQL\",\"description\":\"Mendukung s/d 25 max_user_connections dan 100 max_connections\"}]");
+
+/***/ }),
+
+/***/ "./resources/assets/json/hosting-features.json":
+/*!*****************************************************!*\
+  !*** ./resources/assets/json/hosting-features.json ***!
+  \*****************************************************/
+/*! exports provided: 0, 1, 2, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("[{\"img\":\"icon PHP Hosting_zendguard.svg\",\"text\":\"PHP Zend Guard Loader\"},{\"img\":\"icon PHP Hosting_composer.svg\",\"text\":\"PHP Composer\"},{\"img\":\"icon PHP Hosting_ioncube.svg\",\"text\":\"PHP ionCube Loader\"}]");
+
+/***/ }),
+
+/***/ "./resources/assets/json/hosting-packages.json":
+/*!*****************************************************!*\
+  !*** ./resources/assets/json/hosting-packages.json ***!
+  \*****************************************************/
+/*! exports provided: 0, 1, 2, 3, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("[{\"name\":\"Bayi\",\"currency\":\"Rp\",\"recommended\":false,\"bestseller\":false,\"discount\":0,\"discountUnit\":\"%\",\"subscriptionFrequency\":\"bln\",\"priceBeforeDiscount\":19900,\"priceAfterDiscount\":14900,\"userCount\":938,\"resourcePower\":0.5,\"benefits\":[\"<b>500 MB</b> Disk Space\",\"<b>Unlimited</b> Bandwidth\",\"<b>Unlimited</b> Databases\",\"<b>1</b> Domain\",\"<b>Instant</b> Backup\",\"<b>Unlimited SSL</b> Gratis Selamanya\"]},{\"name\":\"Pelajar\",\"currency\":\"Rp\",\"recommended\":false,\"bestseller\":false,\"discount\":0,\"discountUnit\":\"%\",\"subscriptionFrequency\":\"bln\",\"priceBeforeDiscount\":46900,\"priceAfterDiscount\":23450,\"userCount\":4168,\"resourcePower\":1,\"benefits\":[\"<b>Unlimited</b> Disk Space\",\"<b>Unlimited</b> Bandwidth\",\"<b>Unlimited</b> POP3 Email\",\"<b>Unlimited</b> Databases\",\"<b>10</b> Addon Domains\",\"<b>Instant</b> Backup\",\"<b>Domain Gratis</b> Selamanya\",\"<b>Unlimited SSL</b> Gratis Selamanya\"]},{\"name\":\"Personal\",\"currency\":\"Rp\",\"recommended\":true,\"bestseller\":true,\"discount\":0,\"discountUnit\":\"%\",\"subscriptionFrequency\":\"bln\",\"priceBeforeDiscount\":58900,\"priceAfterDiscount\":38900,\"userCount\":10017,\"resourcePower\":2,\"benefits\":[\"<b>Unlimited</b> Disk Space\",\"<b>Unlimited</b> Bandwidth\",\"<b>Unlimited</b> POP3 Email\",\"<b>Unlimited</b> Databases\",\"<b>Unlimited</b> Addon Domains\",\"<b>Instant</b> Backup\",\"<b>Domain Gratis</b> Selamanya\",\"<b>Unlimited SSL</b> Gratis Selamanya\",\"<b>Private</b> Name Server\",\"<b>SpamAssasin</b> Mail Protection\"]},{\"name\":\"Bisnis\",\"currency\":\"Rp\",\"recommended\":false,\"bestseller\":false,\"discount\":40,\"discountUnit\":\"%\",\"subscriptionFrequency\":\"bln\",\"priceBeforeDiscount\":109900,\"priceAfterDiscount\":65900,\"userCount\":3552,\"resourcePower\":3,\"benefits\":[\"<b>Unlimited</b> Disk Space\",\"<b>Unlimited</b> Bandwidth\",\"<b>Unlimited</b> POP3 Email\",\"<b>Unlimited</b> Databases\",\"<b>Unlimited</b> Addon Domains\",\"<b>Magic Auto</b> Backup & Restore\",\"<b>Domain Gratis</b> Selamanya\",\"<b>Unlimited SSL</b> Gratis Selamanya\",\"<b>Private</b> Name Server\",\"<b>Prioritas</b> Layanan Support <br/><div> <i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i></div>\",\"<b>SpamExpert</b> Pro Mail Protection\"]}]");
+
+/***/ }),
+
+/***/ "./resources/assets/json/niagahoster-benefits.json":
+/*!*********************************************************!*\
+  !*** ./resources/assets/json/niagahoster-benefits.json ***!
+  \*********************************************************/
+/*! exports provided: 0, 1, 2, 3, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("[{\"checked\":true,\"text\":\"Solusi PHP untuk performa query yang lebih cepat\"},{\"checked\":true,\"text\":\"Konsumsi memori yang lebih rendah\"},{\"checked\":true,\"text\":\"Support PHP 5.3, PHP 5.4, PHP 5.5, PHP 5.6, PHP 7\"},{\"checked\":true,\"text\":\"Fitur enkripsi ionCube dan Zend Guard Loaders\"}]");
+
+/***/ }),
+
 /***/ "./resources/assets/sass/app.scss":
 /*!****************************************!*\
   !*** ./resources/assets/sass/app.scss ***!
@@ -45612,6 +46116,170 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/assets/svg sync recursive ^\\.\\/.*$":
+/*!********************************************!*\
+  !*** ./resources/assets/svg sync ^\.\/.*$ ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./icon PHP Hosting_CPanel.svg": "./resources/assets/svg/icon PHP Hosting_CPanel.svg",
+	"./icon PHP Hosting_InnoDB.svg": "./resources/assets/svg/icon PHP Hosting_InnoDB.svg",
+	"./icon PHP Hosting_My SQL remote.svg": "./resources/assets/svg/icon PHP Hosting_My SQL remote.svg",
+	"./icon PHP Hosting_My SQL.svg": "./resources/assets/svg/icon PHP Hosting_My SQL.svg",
+	"./icon PHP Hosting_PHP Semua Versi.svg": "./resources/assets/svg/icon PHP Hosting_PHP Semua Versi.svg",
+	"./icon PHP Hosting_composer.svg": "./resources/assets/svg/icon PHP Hosting_composer.svg",
+	"./icon PHP Hosting_garansi uptime.svg": "./resources/assets/svg/icon PHP Hosting_garansi uptime.svg",
+	"./icon PHP Hosting_ioncube.svg": "./resources/assets/svg/icon PHP Hosting_ioncube.svg",
+	"./icon PHP Hosting_zendguard.svg": "./resources/assets/svg/icon PHP Hosting_zendguard.svg",
+	"./illustration banner PHP hosting-01.svg": "./resources/assets/svg/illustration banner PHP hosting-01.svg",
+	"./illustration banner support laravel hosting.svg": "./resources/assets/svg/illustration banner support laravel hosting.svg"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./resources/assets/svg sync recursive ^\\.\\/.*$";
+
+/***/ }),
+
+/***/ "./resources/assets/svg/icon PHP Hosting_CPanel.svg":
+/*!**********************************************************!*\
+  !*** ./resources/assets/svg/icon PHP Hosting_CPanel.svg ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/icon PHP Hosting_CPanel.svg?9505ff0e57a85f6ba1dbe18e84250c7d";
+
+/***/ }),
+
+/***/ "./resources/assets/svg/icon PHP Hosting_InnoDB.svg":
+/*!**********************************************************!*\
+  !*** ./resources/assets/svg/icon PHP Hosting_InnoDB.svg ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/icon PHP Hosting_InnoDB.svg?0822b72f0edb22283bcaed14a91c9229";
+
+/***/ }),
+
+/***/ "./resources/assets/svg/icon PHP Hosting_My SQL remote.svg":
+/*!*****************************************************************!*\
+  !*** ./resources/assets/svg/icon PHP Hosting_My SQL remote.svg ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/icon PHP Hosting_My SQL remote.svg?7b1336f97c7a4cd0961fa2ffc47c2cd8";
+
+/***/ }),
+
+/***/ "./resources/assets/svg/icon PHP Hosting_My SQL.svg":
+/*!**********************************************************!*\
+  !*** ./resources/assets/svg/icon PHP Hosting_My SQL.svg ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/icon PHP Hosting_My SQL.svg?2e88254090da830701eb7b69c95858ba";
+
+/***/ }),
+
+/***/ "./resources/assets/svg/icon PHP Hosting_PHP Semua Versi.svg":
+/*!*******************************************************************!*\
+  !*** ./resources/assets/svg/icon PHP Hosting_PHP Semua Versi.svg ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/icon PHP Hosting_PHP Semua Versi.svg?470b960cb6068d1afa56648ed042b042";
+
+/***/ }),
+
+/***/ "./resources/assets/svg/icon PHP Hosting_composer.svg":
+/*!************************************************************!*\
+  !*** ./resources/assets/svg/icon PHP Hosting_composer.svg ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/icon PHP Hosting_composer.svg?f74adeed6595b2b9f0fffcc854b9c2f5";
+
+/***/ }),
+
+/***/ "./resources/assets/svg/icon PHP Hosting_garansi uptime.svg":
+/*!******************************************************************!*\
+  !*** ./resources/assets/svg/icon PHP Hosting_garansi uptime.svg ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/icon PHP Hosting_garansi uptime.svg?096676cace92859cd6f74cbc27f4423c";
+
+/***/ }),
+
+/***/ "./resources/assets/svg/icon PHP Hosting_ioncube.svg":
+/*!***********************************************************!*\
+  !*** ./resources/assets/svg/icon PHP Hosting_ioncube.svg ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/icon PHP Hosting_ioncube.svg?2b82baededd1515b898cefeaa00431e1";
+
+/***/ }),
+
+/***/ "./resources/assets/svg/icon PHP Hosting_zendguard.svg":
+/*!*************************************************************!*\
+  !*** ./resources/assets/svg/icon PHP Hosting_zendguard.svg ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/icon PHP Hosting_zendguard.svg?7851754bf127985a09729bd82114954f";
+
+/***/ }),
+
+/***/ "./resources/assets/svg/illustration banner PHP hosting-01.svg":
+/*!*********************************************************************!*\
+  !*** ./resources/assets/svg/illustration banner PHP hosting-01.svg ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/illustration banner PHP hosting-01.svg?a292b55b8f297fcd90280ff216c0ef0b";
+
+/***/ }),
+
+/***/ "./resources/assets/svg/illustration banner support laravel hosting.svg":
+/*!******************************************************************************!*\
+  !*** ./resources/assets/svg/illustration banner support laravel hosting.svg ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/illustration banner support laravel hosting.svg?6ab490c97db9a880e4d194b67338fb56";
+
+/***/ }),
+
 /***/ 0:
 /*!***************************************************************************!*\
   !*** multi ./resources/assets/js/app.js ./resources/assets/sass/app.scss ***!
@@ -45619,8 +46287,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\singlewebapp\resources\assets\js\app.js */"./resources/assets/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\singlewebapp\resources\assets\sass\app.scss */"./resources/assets/sass/app.scss");
+__webpack_require__(/*! C:\xampp\htdocs\nhfrontendtest\resources\assets\js\app.js */"./resources/assets/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\nhfrontendtest\resources\assets\sass\app.scss */"./resources/assets/sass/app.scss");
 
 
 /***/ })

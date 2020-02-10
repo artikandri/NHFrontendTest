@@ -1,0 +1,18 @@
+[
+	{
+		"checked": true,
+		"text": "Solusi PHP untuk performa query yang lebih cepat"
+	},
+	{
+		"checked": true,
+		"text": "Konsumsi memori yang lebih rendah"
+	},
+	{
+		"checked": true,
+		"text": "Support PHP 5.3, PHP 5.4, PHP 5.5, PHP 5.6, PHP 7"
+	},
+	{
+		"checked": true,
+		"text": "Fitur enkripsi ionCube dan Zend Guard Loaders"
+	}
+]
