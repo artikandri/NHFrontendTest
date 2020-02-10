@@ -1,0 +1,3 @@
+$textTransforms: ("uppercase", "lowercase", "capitalize");
+
+@include createBemStyling("text-transform", $textTransforms, "text");

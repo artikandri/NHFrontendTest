@@ -1,0 +1,97 @@
+[
+	{
+		"name": "Bayi",
+		"currency": "Rp",
+		"recommended": false,
+		"bestseller": false,
+		"discount": 0,
+		"discountUnit": "%",
+		"subscribeType": "bln",
+		"price_before_discount": 19900,
+		"price_after_discount": 14900,
+		"userCount": 938,
+		"resourcePower": 0.5,
+		"benefits": [
+			"<b>500 MB</b> Disk Space",
+			"<b>Unlimited</b> Bandwidth",
+			"<b>Unlimited</b> Databases",
+			"<b>1</b> Domain",
+			"<b>Instant</b> Backup",
+			"<b>Unlimited SSL</b> Gratis Selamanya"
+		]
+	},
+	{
+		"name": "Pelajar",
+		"currency": "Rp",
+		"recommended": false,
+		"bestseller": false,
+		"discount": 0,
+		"discountUnit": "%",
+		"subscribeType": "bln",
+		"price_before_discount": 46900,
+		"price_after_discount": 23450,
+		"userCount": 4168,
+		"resourcePower": 1,
+		"benefits": [
+			"<b>Unlimited</b> Disk Space",
+			"<b>Unlimited</b> Bandwidth",
+			"<b>Unlimited</b> POP3 Email",
+			"<b>Unlimited</b> Databases",
+			"<b>10</b> Addon Domains",
+			"<b>Instant</b> Backup",
+			"<b>Domain Gratis</b> Selamanya",
+			"<b>Unlimited SSL</b> Gratis Selamanya"
+		]
+	},
+	{
+		"name": "Personal",
+		"currency": "Rp",
+		"recommended": true,
+		"bestseller": true,
+		"discount": 0,
+		"discountUnit": "%",
+		"subscribeType": "bln",
+		"price_before_discount": 58900,
+		"price_after_discount": 38900,
+		"userCount": 10017,
+		"resourcePower": 2,
+		"benefits": [
+			"<b>Unlimited</b> Disk Space",
+			"<b>Unlimited</b> Bandwidth",
+			"<b>Unlimited</b> POP3 Email",
+			"<b>Unlimited</b> Databases",
+			"<b>Unlimited</b> Addon Domains",
+			"<b>Instant</b> Backup",
+			"<b>Domain Gratis</b> Selamanya",
+			"<b>Unlimited SSL</b> Gratis Selamanya",
+			"<b>Private</b> Name Server",
+			"<b>SpamAssasin</b> Mail Protection"
+		]
+	},
+	{
+		"name": "Bisnis",
+		"currency": "Rp",
+		"recommended": false,
+		"bestseller": false,
+		"discount": 40,
+		"discountUnit": "%",
+		"subscribeType": "bln",
+		"price_before_discount": 109900,
+		"price_after_discount": 65900,
+		"userCount": 3552,
+		"resourcePower": 3,
+		"benefits": [
+			"<b>Unlimited</b> Disk Space",
+			"<b>Unlimited</b> Bandwidth",
+			"<b>Unlimited</b> POP3 Email",
+			"<b>Unlimited</b> Databases",
+			"<b>Unlimited</b> Addon Domains",
+			"<b>Magic Auto</b> Backup & Restore",
+			"<b>Domain Gratis</b> Selamanya",
+			"<b>Unlimited SSL</b> Gratis Selamanya",
+			"<b>Private</b> Name Server",
+			"<b>Prioritas</b> Layanan Support <br/><div> <i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i></div>",
+			"<b>SpamExpert</b> Pro Mail Protection"
+		]
+	}
+]

@@ -1,0 +1,59 @@
+$montserratFonts: (
+	"Montserrat-Black",
+	"Montserrat-Bold",
+	"Montserrat-Hairline",
+	"Montserrat-Light",
+	"Montserrat-Regular"
+);
+
+$robotoFonts: (
+	"Roboto-Black",
+	"Roboto-BlackItalic",
+	"Roboto-Bold",
+	"Roboto-BoldCondensed",
+	"Roboto-BoldCondensedItalic",
+	"Roboto-BoldItalic",
+	"Roboto-Condensed",
+	"Roboto-CondensedItalic",
+	"Roboto-Italic",
+	"Roboto-Light",
+	"Roboto-LightItalic",
+	"Roboto-Medium",
+	"Roboto-MediumItalic",
+	"Roboto-Regular",
+	"Roboto-Thin",
+	"Roboto-ThinItalic"
+);
+
+@mixin createFontFamily($fontFamily, $extension) {
+	@each $font in $fontFamily {
+		@font-face {
+			font-family: #{$font};
+			src: url("/fonts/#{$font}.#{$extension}");
+		}
+	}
+}
+
+@mixin createFontVariables($fontFamily) {
+	@each $font in $fontFamily {
+		--#{to-lower-case($font)}: #{$font}, sans-serif;
+	}
+}
+
+@mixin createTextClasses($fontFamily, $isImportant: false) {
+	@each $font in $fontFamily {
+		.text-#{to-lower-case($font)} {
+			font-family: #{$font}, "Arial", "sans-serif";
+		}
+	}
+}
+
+@include createFontFamily($montserratFonts, "otf");
+@include createFontFamily($robotoFonts, "ttf");
+@include createTextClasses($montserratFonts);
+@include createTextClasses($robotoFonts);
+
+body {
+	@include createFontVariables($montserratFonts);
+	@include createFontVariables($robotoFonts);
+}

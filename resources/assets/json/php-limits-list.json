@@ -1,0 +1,26 @@
+[
+	{
+		"checked": true,
+		"text": "max execution time 300s"
+	},
+	{
+		"checked": true,
+		"text": "max execution time 300s"
+	},
+	{
+		"checked": true,
+		"text": "php memory limit 1024 MB"
+	},
+	{
+		"checked": true,
+		"text": "post max size 128 MB"
+	},
+	{
+		"checked": true,
+		"text": "upload max filesize 128 MB"
+	},
+	{
+		"checked": true,
+		"text": "max input vars 2500"
+	}
+]

@@ -1,0 +1,25 @@
+@mixin createBemStyling(
+	$propertyName,
+	$propertyValues,
+	$className,
+	$isImportant: true
+) {
+	@each $value in $propertyValues {
+		.#{$className}-#{$value} {
+			#{$propertyName}: #{$value} #{if($isImportant, "!important", "")};
+		}
+	}
+}
+
+@mixin create2DBemStyling(
+	$propertyName,
+	$propertyValues,
+	$className,
+	$isImportant: true
+) {
+	@each $valueName, $value in $propertyValues {
+		.#{$className}-#{$valueName} {
+			#{$propertyName}: #{$value} #{if($isImportant, "!important", "")};
+		}
+	}
+}

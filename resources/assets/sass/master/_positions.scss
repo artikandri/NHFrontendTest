@@ -1,0 +1,13 @@
+$positions: ("relative", "absolute", "fixed");
+$displays: (
+	"block",
+	"inline",
+	"inline-block",
+	"table",
+	"flex",
+	"grid",
+	"inline-flex"
+);
+
+@include createBemStyling("position", $positions, "position");
+@include createBemStyling("display", $displays, "display");
