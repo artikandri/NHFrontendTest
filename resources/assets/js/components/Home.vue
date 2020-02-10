@@ -117,7 +117,11 @@
                 </ul>
             </div>
         </section>
+        <hr />
         <section class="row">
+            <div class="col-md-12">
+                <h1>Semua paket hosting sudah termasuk</h1>
+            </div>
             <div
                 class="col-md-4 col-sm-6"
                 v-for="(bundle, idx) in hostingBundles"
@@ -126,6 +130,42 @@
                 <strong class="display-block">{{ bundle.title }}</strong>
                 {{ bundle.description }}
             </div>
+        </section>
+        <hr />
+        <section class="row">
+            <div class="col-md-12">
+                Mendukung penuh framework Laravel
+            </div>
+            <div class="col-sm-6">
+                <p>
+                    Tak perlu menggunakan dedicated server ataupun VPS yang
+                    mahal. Layanan PHP hosting kami mendukung penuh framework
+                    favorit Anda.
+
+                    <ul>
+                        <li v-for="(item, idx) in hostingLaravel">
+                           <p v-html="item.text"></p>
+                        </li>
+                    </ul>
+                </p>
+                <p>
+                    <small
+                        >Nb: Composer dan SSH hanya tersedia pada paket Personal
+                        dan Bisnis</small
+                    >
+                </p>
+            </div>
+            <div class="col-sm-6">
+                <img src="@svg/illustration banner PHP hosting-01.svg" />
+            </div>
+        </section>
+        <section class="row">
+            <h1>Modul lengkap untuk menjalankan aplikasi PHP Anda</h1>
+            <ul class="">
+                <li v-for="(module, idx) in phpModules">
+                    {{ module }}
+                </li>
+            </ul>
         </section>
     </div>
 </template>
@@ -136,10 +176,13 @@ import hostingFeatures from "@json/hosting-features.json";
 import hostingPackages from "@json/hosting-packages.json";
 import hostingBenefits from "@json/hosting-benefits.json";
 import hostingBundles from "@json/hosting-bundles.json";
-
+import phpModules from "@json/php-modules.json";
+import hostingLaravel from '@json/hosting-laravel.json';
 export default {
     data() {
         return {
+            phpModules: phpModules || [],
+            hostingLaravel: hostingLaravel || [],
             hostingPackages: hostingPackages || [],
             hostingFeatures: hostingFeatures || [],
             hostingBenefits: hostingBenefits || [],

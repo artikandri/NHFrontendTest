@@ -1,0 +1,14 @@
+[
+	{
+		"checked": true,
+		"text": "Install Laravel <b>1 klik</b> dengan Softaculous installer"
+	},
+	{
+		"checked": true,
+		"text": "Mendukung ekstensi <b>PHP MyCript, phar, mbstring, json</b> dan <b>fileinfo</b>."
+	},
+	{
+		"checked": true,
+		"text": "Tersedia <b>Composer</b> dan <b>SSH</b> untuk menginstal packages pilihan Anda."
+	}
+]
