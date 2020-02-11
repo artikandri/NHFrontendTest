@@ -1787,7 +1787,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Main_HostingPackages_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @components/Main/HostingPackages.vue */ "./resources/assets/js/components/Main/HostingPackages.vue");
 /* harmony import */ var _components_Main_Benefits_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @components/Main/Benefits.vue */ "./resources/assets/js/components/Main/Benefits.vue");
 /* harmony import */ var _components_Main_LaravelSupport_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @components/Main/LaravelSupport.vue */ "./resources/assets/js/components/Main/LaravelSupport.vue");
-/* harmony import */ var _components_Main_Bundles_vue__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @components/Main/Bundles.vue */ "./resources/assets/js/components/Main/Bundles.vue");
+/* harmony import */ var _components_Main_Bundles_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @components/Main/Bundles.vue */ "./resources/assets/js/components/Main/Bundles.vue");
 /* harmony import */ var _json_niagahoster_benefits_json__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @json/niagahoster-benefits.json */ "./resources/assets/json/niagahoster-benefits.json");
 var _json_niagahoster_benefits_json__WEBPACK_IMPORTED_MODULE_6___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/niagahoster-benefits.json */ "./resources/assets/json/niagahoster-benefits.json", 1);
 /* harmony import */ var _json_hosting_features_json__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @json/hosting-features.json */ "./resources/assets/json/hosting-features.json");
@@ -1802,6 +1802,7 @@ var _json_hosting_bundles_json__WEBPACK_IMPORTED_MODULE_10___namespace = /*#__PU
 var _json_php_modules_json__WEBPACK_IMPORTED_MODULE_11___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/php-modules.json */ "./resources/assets/json/php-modules.json", 1);
 /* harmony import */ var _json_hosting_laravel_json__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @json/hosting-laravel.json */ "./resources/assets/json/hosting-laravel.json");
 var _json_hosting_laravel_json__WEBPACK_IMPORTED_MODULE_12___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/hosting-laravel.json */ "./resources/assets/json/hosting-laravel.json", 1);
+//
 //
 //
 //
@@ -1882,7 +1883,7 @@ var _json_hosting_laravel_json__WEBPACK_IMPORTED_MODULE_12___namespace = /*#__PU
     HostingPackages: _components_Main_HostingPackages_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
     Benefits: _components_Main_Benefits_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
     LaravelSupport: _components_Main_LaravelSupport_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
-    Bundles: _components_Main_Bundles_vue__WEBPACK_IMPORTED_MODULE_13__["default"]
+    Bundles: _components_Main_Bundles_vue__WEBPACK_IMPORTED_MODULE_5__["default"]
   },
   data: function data() {
     return {
@@ -33592,11 +33593,11 @@ var render = function() {
       _vm._v(" "),
       _c("benefits"),
       _vm._v(" "),
-      _c("hr"),
+      _c("hr", { staticClass: "mini-hr" }),
       _vm._v(" "),
       _c("bundles"),
       _vm._v(" "),
-      _c("hr"),
+      _c("hr", { staticClass: "mini-hr" }),
       _vm._v(" "),
       _c("laravel-support"),
       _vm._v(" "),
@@ -34310,7 +34311,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-md-12 text-center" }, [
-      _c("h2", { staticClass: "text__header text-montserrat-regular" }, [
+      _c("h2", { staticClass: "text__header text-montserrat-light" }, [
         _vm._v(
           "\n                    Mendukung penuh framework Laravel\n                "
         )

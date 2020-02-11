@@ -4,10 +4,11 @@
         <hero-elements/>
         <hosting-packages/>
         <benefits/>
-        <hr />
+        <hr class="mini-hr" />
         <bundles/>
-        <hr />
+        <hr class="mini-hr" />
         <laravel-support />
+
         <section class="row">
             <h1>Modul lengkap untuk menjalankan aplikasi PHP Anda</h1>
             <ul class="">

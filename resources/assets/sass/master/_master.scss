@@ -13,3 +13,10 @@ a {
 		color: $brand-disabled;
 	}
 }
+
+.mini-hr {
+	margin: auto;
+	color: $border-color;
+	width: 90px;
+	border-width: 5px;
+}

@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row main-hero__row">
                 <div class="col-md-12 text-center">
-                    <h2 class="text__header text-montserrat-regular">
+                    <h2 class="text__header text-montserrat-light">
                         Mendukung penuh framework Laravel
                     </h2>
                 </div>

@@ -8689,6 +8689,13 @@ a:visited {
   color: #303030;
 }
 
+.mini-hr {
+  margin: auto;
+  color: #f1f1f1;
+  width: 90px;
+  border-width: 5px;
+}
+
 .header-contact {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -8861,6 +8868,11 @@ a:visited {
   margin-top: 10px;
   font-size: 19.25px;
   font-size: 1.71875rem;
+}
+
+.main-bundles {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .main-bundles__item {
