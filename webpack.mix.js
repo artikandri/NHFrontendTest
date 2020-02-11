@@ -22,6 +22,7 @@ mix.webpackConfig({
 			"@json": __dirname + "/resources/assets/json",
 			"@js": __dirname + "/resources/assets/js",
 			"@components": __dirname + "/resources/assets/js/components",
+			"@css": __dirname + "/resources/assets/css",
 			"@sass": __dirname + "/resources/assets/sass",
 			"@images": __dirname + "/resources/assets/images",
 			"@svg": __dirname + "/resources/assets/svg"

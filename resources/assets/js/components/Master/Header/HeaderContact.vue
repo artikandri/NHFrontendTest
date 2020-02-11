@@ -1,26 +1,36 @@
 <template>
-	<div class="container">
+	<div class="container header-contact ">
 		<div class="row">
-			<div class="col-md-6">
-				<i class="fa fa-bookmark"></i>
-				<p class="text-capitalize">
-					Gratis Ebook 9 cara cerdas menggunakan domain
+			<div class="col-md-6 header-contact__bookmark">
+				<div class="ribbon">
+					<i class="fa fa-tag text-white"></i>
+				</div>
+				<p class="">
+					<span class="text-capitalize"
+						>Gratis Ebook 9 cara cerdas menggunakan domain
+					</span>
+					[ x ]
 				</p>
-				[x]
 			</div>
-			<div class="col-md-6">
-				<ul>
-					<li>
-						<i class="fa fa-phone"></i>
-						0274-5305505
+			<div class="col-md-6 header-contact__info">
+				<ul class="contact-list">
+					<li class="contact-list__item">
+						<a href="tel:02745305505">
+							<i class="fa fa-phone"></i>
+							0274-5305505
+						</a>
 					</li>
 					<li>
-						<i class="fa fa-message"></i>
-						Live Chat
+						<a href="javascript:void(0)">
+							<i class="fa fa-comment"></i>
+							0274-5305505
+						</a>
 					</li>
 					<li>
-						<i class="fa fa-circle-user"></i>
-						Member Area
+						<a href="javascript:void(0)">
+							<i class="fa fa-user-circle"></i>
+							Member Area
+						</a>
 					</li>
 				</ul>
 			</div>

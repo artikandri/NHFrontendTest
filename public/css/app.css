@@ -16,6 +16,14 @@
   background-color: #303030 !important;
 }
 
+.bg-dark-primary {
+  background-color: #424242 !important;
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
+
 .text-primary {
   color: #0090ef !important;
 }
@@ -30,6 +38,14 @@
 
 .text-gray-900 {
   color: #303030 !important;
+}
+
+.text-dark-primary {
+  color: #424242 !important;
+}
+
+.text-white {
+  color: #fff !important;
 }
 
 @font-face {
@@ -256,6 +272,18 @@ body {
 
 .text-capitalize {
   text-transform: capitalize !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right !important;
 }
 
 .position-relative {
@@ -8537,5 +8565,21 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+
+.ribbon {
+  width: 0px;
+  height: 35px;
+  color: #fff;
+  background-color: transparent;
+  position: absolute;
+  top: -5px;
+  right: 20px;
+  border: 15px solid #0090ef;
+  border-bottom: 15px solid transparent;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  transition: all 0.2s;
+  cursor: pointer;
 }
 

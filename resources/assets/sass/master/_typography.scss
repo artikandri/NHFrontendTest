@@ -1,3 +1,5 @@
 $textTransforms: ("uppercase", "lowercase", "capitalize");
+$textAlignments: ("center", "left", "right");
 
 @include createBemStyling("text-transform", $textTransforms, "text");
+@include createBemStyling("text-align", $textAlignments, "text");
