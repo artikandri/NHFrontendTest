@@ -1,0 +1,24 @@
+.main-bundles {
+	.main-bundles__item {
+	}
+}
+
+.main-bundles__item {
+	text-align: center;
+	margin-bottom: 40px;
+
+	.bundle__title {
+		font-family: var(--montserrat-bold);
+		@include fontSize(1.5);
+	}
+
+	.bundle__description {
+		width: 80%;
+		margin: auto;
+		@include fontSize(1.25);
+	}
+
+	.bundle__image {
+		max-height: 50px;
+	}
+}

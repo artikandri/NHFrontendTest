@@ -19,8 +19,13 @@
 		}
 
 		.bookmark__ribbon {
+			position: relative;
 			color: $brand-white;
 			margin-top: -15px;
+
+			> i {
+				@include fontSize(1.125);
+			}
 		}
 
 		.bookmark__ad {

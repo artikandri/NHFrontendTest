@@ -5,19 +5,7 @@
         <hosting-packages/>
         <benefits/>
         <hr />
-        <section class="row">
-            <div class="col-md-12">
-                <h1>Semua paket hosting sudah termasuk</h1>
-            </div>
-            <div
-                class="col-md-4 col-sm-6"
-                v-for="(bundle, idx) in hostingBundles"
-            >
-                <img :src="bundle.img | imageUrl" class="display-block" />
-                <strong class="display-block">{{ bundle.title }}</strong>
-                {{ bundle.description }}
-            </div>
-        </section>
+        <bundles/>
         <hr />
         <laravel-support />
         <section class="row">
@@ -76,6 +64,7 @@ import HeroElements from '@components/Main/HeroElements.vue';
 import HostingPackages from '@components/Main/HostingPackages.vue';
 import Benefits from '@components/Main/Benefits.vue';
 import LaravelSupport from '@components/Main/LaravelSupport.vue';
+import Bundles from '@components/Main/Bundles.vue';
 
 
 import niagahosterBenefits from "@json/niagahoster-benefits.json";
@@ -91,7 +80,8 @@ export default {
         HeroElements,
         HostingPackages,
         Benefits,
-        LaravelSupport
+        LaravelSupport,
+        Bundles
     },
     data() {
         return {
