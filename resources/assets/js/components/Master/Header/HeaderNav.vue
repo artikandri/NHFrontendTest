@@ -1,23 +1,24 @@
 <template>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-3">
-				<img src="@images/logo.png" />
-			</div>
-			<div class="col-md-9">
-				<nav>
-					<ul>
+	<section class="header-nav">
+		<div class="container">
+			<div class="row header-nav__row">
+				<div class="col-md-2 header-nav__logo">
+					<img src="@images/logo.png" class="logo__image" />
+				</div>
+				<nav class="col-md-9 col-md-offset-1 header-nav__menus">
+					<ul class="menus-list">
 						<li
+							class="menus-list__item"
 							v-for="(menuItem, idx) in menus"
 							:key="'menu' + idx"
 						>
-							{{ menuItem || "Menu text" }}
+							{{ menuItem || "Menu" }}
 						</li>
 					</ul>
 				</nav>
 			</div>
 		</div>
-	</div>
+	</section>
 </template>
 
 <script>

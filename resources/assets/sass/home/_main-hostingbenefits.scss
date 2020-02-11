@@ -1,0 +1,40 @@
+.main-hostingbenefits {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	position: relative;
+}
+
+.main-hostingbenefits .benefit-list {
+	border: 1px solid $border-color;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	margin-top: 20px;
+
+	.benefit-list__item {
+		padding: 10px;
+		display: flex;
+		list-style-type: none;
+		justify-content: flex-start;
+		align-items: center;
+		font-family: var(--roboto-regular);
+
+		@include fontSize(1.25);
+
+		.list-icon {
+		}
+
+		.list-text {
+			width: 100%;
+			margin-left: auto;
+		}
+
+		& + .benefit-list__item {
+			border-top: 1px solid $border-color;
+		}
+
+		&:nth-child(2n) {
+			background-color: $bg-gray;
+		}
+	}
+}

@@ -6,7 +6,9 @@ $displays: (
 	"table",
 	"flex",
 	"grid",
-	"inline-flex"
+	"inline-flex",
+	"table-row",
+	"table-cell"
 );
 
 @include createBemStyling("position", $positions, "position");

@@ -1,0 +1,26 @@
+.main-elements {
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+	.main-elements__row {
+	}
+
+	.main-elements__feature {
+	}
+}
+
+.main-elements__feature {
+	text-align: center;
+
+	.feature__image {
+		height: 160px;
+		max-width: 225px;
+	}
+
+	.feature__text {
+		display: block;
+		font-family: var(--montserrat-hairline);
+		margin-top: 10px;
+		@include fontSize(1.375);
+	}
+}

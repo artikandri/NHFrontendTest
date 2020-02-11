@@ -23,3 +23,8 @@
 		}
 	}
 }
+
+@mixin fontSize($multiplier: 1, $size: $fontSize) {
+	font-size: #{map-get($size, "px") * $multiplier}px;
+	font-size: #{map-get($size, "rem") * $multiplier}rem;
+}

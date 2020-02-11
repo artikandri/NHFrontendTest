@@ -1,0 +1,62 @@
+.main-hero {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid $border-color;
+
+	.main-hero__row {
+	}
+
+	.main-hero__text {
+	}
+
+	.main-hero__image {
+	}
+}
+
+.main-hero .main-hero__text {
+	.text__title {
+		font-family: var(--montserrat-bold);
+	}
+
+	.text__header {
+		margin: 0;
+	}
+
+	.text__tagline {
+		@include fontSize(2);
+		font-family: var(--montserrat-regular);
+		line-height: 1.75;
+	}
+
+	.text__description {
+		@include fontSize(1.5);
+		font-family: var(--montserrat-light);
+	}
+
+	.benefits-list {
+	}
+}
+
+.main-hero__text .benefit-list {
+	padding: 0;
+	margin: 0;
+
+	.benefit-list__item {
+		list-style-type: none;
+		@include fontSize(1.375);
+		line-height: 2;
+
+		.list-icon {
+			border-radius: 50%;
+			margin-right: 10px;
+
+			&--positive {
+				color: $brand-success;
+			}
+
+			&--negative {
+				color: $brand-danger;
+			}
+		}
+	}
+}

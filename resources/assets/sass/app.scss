@@ -1,3 +1,6 @@
+// Variables
+@import "variables";
+
 // Fonts
 @import "master/mixins";
 @import "master/colors";
@@ -6,11 +9,18 @@
 @import "master/typography";
 @import "master/positions";
 
-// Variables
-@import "variables";
+@import "elements/ribbon";
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
+@import "master/master";
+
 @import "home/header";
 @import "home/footer";
+
+@import "home/main-hero";
+@import "home/main-elements";
+@import "home/main-hostingpackages";
+@import "home/main-hostingbenefits";
+

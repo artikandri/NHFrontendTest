@@ -25,6 +25,11 @@ $robotoFonts: (
 	"Roboto-ThinItalic"
 );
 
+$fontSize: (
+	px: 14,
+	rem: 1.25
+);
+
 @mixin createFontFamily($fontFamily, $extension) {
 	@each $font in $fontFamily {
 		@font-face {

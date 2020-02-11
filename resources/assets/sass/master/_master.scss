@@ -1,0 +1,15 @@
+body {
+	@include fontSize(1);
+}
+
+a {
+	color: unset;
+
+	&:hover {
+		color: $brand-primary;
+	}
+
+	&:visited {
+		color: $brand-disabled;
+	}
+}

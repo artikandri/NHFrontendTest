@@ -1,5 +1,6 @@
 // Body
 $body-bg: #fff;
+$bg-gray: #fafafa;
 
 // Borders
 $laravel-border-color: darken($body-bg, 10%);
@@ -11,15 +12,16 @@ $border-color: #f1f1f1;
 
 // Brands
 $brand-primary: #0090ef;
+$brand-primary-200: #007fde;
 $brand-info: #0090ef;
 $brand-success: #00b348;
 $brand-warning: #cbb956;
 $brand-danger: #bf5329;
+$brand-disabled: #303030;
+$brand-white: #fff;
 
 $dark-primary: #424242;
 $dark-secondary: #303030;
-
-$brand-white: #fff;
 
 // Typography
 $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
@@ -42,3 +44,13 @@ $input-color-placeholder: lighten($text-color, 30%);
 
 // Panels
 $panel-default-heading-bg: #fff;
+
+// breakpoints
+$breakpoints: (
+	xl: 1200px,
+	lg: 992px,
+	md: 768px,
+	sm: 576px,
+	xs: 480px,
+	xxs: 360px
+);
