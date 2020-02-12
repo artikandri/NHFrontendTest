@@ -3039,6 +3039,28 @@ var _json_Header_menus_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
@@ -35436,40 +35458,81 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("section", { staticClass: "header-nav" }, [
     _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row header-nav__row" }, [
+      _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-md-2 header-nav__logo" }),
         _vm._v(" "),
-        _c(
-          "nav",
-          { staticClass: "col-md-9 col-md-offset-1 header-nav__menus" },
-          [
-            _c(
-              "ul",
-              { staticClass: "menus-list" },
-              _vm._l(_vm.menus, function(menu, idx) {
-                return _c(
-                  "li",
-                  { key: "menu" + idx, staticClass: "menus-list__item" },
-                  [
+        _c("div", { staticClass: "col-md-10" }, [
+          _vm._m(0),
+          _vm._v(" "),
+          _c(
+            "nav",
+            {
+              staticClass:
+                "header-nav__navbar-collapse collapse navbar-collapse",
+              attrs: { id: "bs-example-navbar-collapse-1" }
+            },
+            [
+              _c(
+                "ul",
+                { staticClass: "nav navbar-nav header-nav__list" },
+                _vm._l(_vm.menus, function(menu, idx) {
+                  return _c("li", { key: "menu" + idx }, [
                     _c("a", { attrs: { href: "menu.url || '#'" } }, [
                       _vm._v(
-                        "\n\t\t\t\t\t\t\t" +
+                        "\n\t\t\t\t\t\t\t\t" +
                           _vm._s(menu.text || "Menu") +
-                          "\n\t\t\t\t\t\t"
+                          "\n\t\t\t\t\t\t\t"
                       )
                     ])
-                  ]
-                )
-              }),
-              0
-            )
-          ]
-        )
+                  ])
+                }),
+                0
+              )
+            ]
+          )
+        ])
       ])
     ])
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "nav",
+      {
+        staticClass:
+          "header-nav__navbar navbar-header nav navbar-inverse navbar-static-top"
+      },
+      [
+        _c(
+          "button",
+          {
+            staticClass: "navbar-toggle collapsed header-nav__button",
+            attrs: {
+              type: "button",
+              "data-toggle": "collapse",
+              "data-target": "#bs-example-navbar-collapse-1"
+            }
+          },
+          [
+            _c("span", { staticClass: "sr-only" }, [
+              _vm._v("Toggle navigation")
+            ]),
+            _vm._v(" "),
+            _c("span", { staticClass: "icon-bar" }),
+            _vm._v(" "),
+            _c("span", { staticClass: "icon-bar" }),
+            _vm._v(" "),
+            _c("span", { staticClass: "icon-bar" })
+          ]
+        )
+      ]
+    )
+  }
+]
 render._withStripped = true
 
 

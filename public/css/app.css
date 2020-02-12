@@ -1063,8 +1063,8 @@ body {
 /* common */
 
 .corner-ribbon {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   overflow: hidden;
   position: absolute;
 }
@@ -1082,7 +1082,7 @@ body {
   position: absolute;
   display: block;
   width: 225px;
-  padding: 15px 0;
+  padding: 12px 0 12px 50px;
   background-color: #00b348;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   color: #fff;
@@ -1090,13 +1090,15 @@ body {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
   text-transform: uppercase;
   text-align: center;
+  font-size: 10.5px;
+  font-size: 0.9375rem;
 }
 
 /* top left*/
 
 .corner-ribbon-top-left {
-  top: -10px;
-  left: -10px;
+  top: -5px;
+  left: -5px;
 }
 
 .corner-ribbon-top-left::before,
@@ -9420,6 +9422,8 @@ a:hover {
 }
 
 .header-contact .header-contact__bookmark .bookmark__ribbon > i {
+  position: absolute;
+  left: -5px;
   font-size: 15.75px;
   font-size: 1.40625rem;
 }
@@ -9488,6 +9492,36 @@ a:hover {
 
 .header-nav__menus .menus-list .menus-list__item + .menus-list__item {
   margin-left: 30px;
+}
+
+.header-nav__navbar {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.header-nav__navbar.navbar-inverse .header-nav__button .icon-bar {
+  background-color: #424242;
+}
+
+.header-nav__button {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.header-nav__button:hover,
+.header-nav__button:focus {
+  background-color: transparent !important;
+}
+
+.header-nav__button:hover .icon-bar,
+.header-nav__button:focus .icon-bar {
+  background-color: #0090ef;
+}
+
+.header-nav__list > li {
+  font-family: var(--roboto-light);
+  font-size: 17.5px;
+  font-size: 1.5625rem;
 }
 
 .footer--wrapper {

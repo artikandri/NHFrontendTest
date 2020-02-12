@@ -13,11 +13,12 @@
 
 /* common */
 .corner-ribbon {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   overflow: hidden;
   position: absolute;
 }
+
 .corner-ribbon::before,
 .corner-ribbon::after {
   position: absolute;
@@ -30,7 +31,7 @@
   position: absolute;
   display: block;
   width: 225px;
-  padding: 15px 0;
+  padding: 12px 0 12px 50px;
   background-color: $brand-success;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   color: $brand-white;
@@ -38,12 +39,13 @@
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
   text-transform: uppercase;
   text-align: center;
+  @include fontSize(0.75);
 }
 
 /* top left*/
 .corner-ribbon-top-left {
-  top: -10px;
-  left: -10px;
+  top: -5px;
+  left: -5px;
 }
 .corner-ribbon-top-left::before,
 .corner-ribbon-top-left::after {
