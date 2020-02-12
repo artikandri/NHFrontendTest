@@ -3,7 +3,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 col-sm-6">
-					<strong class="text-uppercase">HUBUNGI KAMI</strong>
+					<strong class="footer-list-title text-uppercase"
+						>HUBUNGI KAMI</strong
+					>
 					<address>
 						<span class="display-block">0274-5305505</span>
 						<span class="display-block">Senin - Minggu</span>
@@ -15,11 +17,12 @@
 					</address>
 				</div>
 				<div class="col-md-3 col-sm-6">
-					<strong class="text-uppercase display-block"
-						>LAYANAN</strong
-					>
-					<ul>
-						<li v-for="(service, idx) in list.niagaServices">
+					<strong class=" footer-list-title ">LAYANAN</strong>
+					<ul class="footer-link-list">
+						<li
+							class="footer-link-list__item"
+							v-for="(service, idx) in list.niagaServices"
+						>
 							<a :href="service.url || '#'">
 								{{ service.text }}
 							</a>
@@ -27,11 +30,12 @@
 					</ul>
 				</div>
 				<div class="col-md-3 col-sm-6">
-					<strong class="text-uppercase display-block"
-						>SERVICE HOSTING</strong
-					>
-					<ul>
-						<li v-for="(service, idx) in list.hostingServices">
+					<strong class="footer-list-title ">SERVICE HOSTING</strong>
+					<ul class="footer-link-list">
+						<li
+							class="footer-link-list__item"
+							v-for="(service, idx) in list.hostingServices"
+						>
 							<a :href="service.url || '#'">
 								{{ service.text }}
 							</a>
@@ -39,11 +43,12 @@
 					</ul>
 				</div>
 				<div class="col-md-3 col-sm-6">
-					<strong class="text-uppercase display-block"
-						>TUTORIAL</strong
-					>
-					<ul>
-						<li v-for="(service, idx) in list.tutorial">
+					<strong class="footer-list-title ">TUTORIAL</strong>
+					<ul class="footer-link-list">
+						<li
+							class="footer-link-list__item"
+							v-for="(service, idx) in list.tutorial"
+						>
 							<a :href="service.url || '#'">
 								{{ service.text }}
 							</a>
@@ -51,13 +56,14 @@
 					</ul>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row m-top-20">
 				<div class="col-md-3 col-sm-6">
-					<strong class="text-uppercase display-block"
-						>TENTANG KAMI</strong
-					>
-					<ul>
-						<li v-for="(service, idx) in list.about">
+					<strong class="footer-list-title ">TENTANG KAMI</strong>
+					<ul class="footer-link-list">
+						<li
+							class="footer-link-list__item"
+							v-for="(service, idx) in list.about"
+						>
 							<a :href="service.url || '#'">
 								{{ service.text }}
 							</a>
@@ -65,11 +71,14 @@
 					</ul>
 				</div>
 				<div class="col-md-3 col-sm-6">
-					<strong class="text-uppercase display-block"
+					<strong class="footer-list-title "
 						>KENAPA PILIH NIAGAHOSTER?</strong
 					>
-					<ul>
-						<li v-for="(service, idx) in list.excellences">
+					<ul class="footer-link-list">
+						<li
+							class="footer-link-list__item"
+							v-for="(service, idx) in list.excellences"
+						>
 							<a :href="service.url || '#'">
 								{{ service.text }}
 							</a>
@@ -106,7 +115,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row m-top-10">
 				<div class="col-md-12">
 					<strong class="text-uppercase">PEMBAYARAN</strong>
 					<ul>
@@ -122,8 +131,8 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-9"></div>
-				<div class="col-md-3">
+				<div class="col-md-6"></div>
+				<div class="col-md-6">
 					<a href="#">Syarat dan Ketentuan</a> |
 					<a href="#">Kebijakan Privasi</a>
 				</div>

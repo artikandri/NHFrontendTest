@@ -14,7 +14,7 @@
                 </div>
                 <div class="col-sm-2">
                     <button class="btn btn-niaga btn-light btn-bordered">
-                        <i class="fa fa-message icon-left"></i>
+                        <i class="fa fa-comment icon-left"></i>
                         Live Chat
                     </button>
                 </div>

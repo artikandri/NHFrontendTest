@@ -2811,6 +2811,15 @@ var _json_footer_tutorial_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PUR
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -34926,7 +34935,7 @@ var staticRenderFns = [
               "button",
               { staticClass: "btn btn-niaga btn-light btn-bordered" },
               [
-                _c("i", { staticClass: "fa fa-message icon-left" }),
+                _c("i", { staticClass: "fa fa-comment icon-left" }),
                 _vm._v("\n                    Live Chat\n                ")
               ]
             )
@@ -34963,14 +34972,15 @@ var render = function() {
         _vm._m(0),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-3 col-sm-6" }, [
-          _c("strong", { staticClass: "text-uppercase display-block" }, [
+          _c("strong", { staticClass: " footer-list-title " }, [
             _vm._v("LAYANAN")
           ]),
           _vm._v(" "),
           _c(
             "ul",
+            { staticClass: "footer-link-list" },
             _vm._l(_vm.list.niagaServices, function(service, idx) {
-              return _c("li", [
+              return _c("li", { staticClass: "footer-link-list__item" }, [
                 _c("a", { attrs: { href: service.url || "#" } }, [
                   _vm._v(
                     "\n\t\t\t\t\t\t\t" + _vm._s(service.text) + "\n\t\t\t\t\t\t"
@@ -34983,14 +34993,15 @@ var render = function() {
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-3 col-sm-6" }, [
-          _c("strong", { staticClass: "text-uppercase display-block" }, [
+          _c("strong", { staticClass: "footer-list-title " }, [
             _vm._v("SERVICE HOSTING")
           ]),
           _vm._v(" "),
           _c(
             "ul",
+            { staticClass: "footer-link-list" },
             _vm._l(_vm.list.hostingServices, function(service, idx) {
-              return _c("li", [
+              return _c("li", { staticClass: "footer-link-list__item" }, [
                 _c("a", { attrs: { href: service.url || "#" } }, [
                   _vm._v(
                     "\n\t\t\t\t\t\t\t" + _vm._s(service.text) + "\n\t\t\t\t\t\t"
@@ -35003,14 +35014,15 @@ var render = function() {
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-3 col-sm-6" }, [
-          _c("strong", { staticClass: "text-uppercase display-block" }, [
+          _c("strong", { staticClass: "footer-list-title " }, [
             _vm._v("TUTORIAL")
           ]),
           _vm._v(" "),
           _c(
             "ul",
+            { staticClass: "footer-link-list" },
             _vm._l(_vm.list.tutorial, function(service, idx) {
-              return _c("li", [
+              return _c("li", { staticClass: "footer-link-list__item" }, [
                 _c("a", { attrs: { href: service.url || "#" } }, [
                   _vm._v(
                     "\n\t\t\t\t\t\t\t" + _vm._s(service.text) + "\n\t\t\t\t\t\t"
@@ -35023,16 +35035,17 @@ var render = function() {
         ])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "row m-top-20" }, [
         _c("div", { staticClass: "col-md-3 col-sm-6" }, [
-          _c("strong", { staticClass: "text-uppercase display-block" }, [
+          _c("strong", { staticClass: "footer-list-title " }, [
             _vm._v("TENTANG KAMI")
           ]),
           _vm._v(" "),
           _c(
             "ul",
+            { staticClass: "footer-link-list" },
             _vm._l(_vm.list.about, function(service, idx) {
-              return _c("li", [
+              return _c("li", { staticClass: "footer-link-list__item" }, [
                 _c("a", { attrs: { href: service.url || "#" } }, [
                   _vm._v(
                     "\n\t\t\t\t\t\t\t" + _vm._s(service.text) + "\n\t\t\t\t\t\t"
@@ -35045,14 +35058,15 @@ var render = function() {
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-3 col-sm-6" }, [
-          _c("strong", { staticClass: "text-uppercase display-block" }, [
+          _c("strong", { staticClass: "footer-list-title " }, [
             _vm._v("KENAPA PILIH NIAGAHOSTER?")
           ]),
           _vm._v(" "),
           _c(
             "ul",
+            { staticClass: "footer-link-list" },
             _vm._l(_vm.list.excellences, function(service, idx) {
-              return _c("li", [
+              return _c("li", { staticClass: "footer-link-list__item" }, [
                 _c("a", { attrs: { href: service.url || "#" } }, [
                   _vm._v(
                     "\n\t\t\t\t\t\t\t" + _vm._s(service.text) + "\n\t\t\t\t\t\t"
@@ -35081,7 +35095,9 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-md-3 col-sm-6" }, [
-      _c("strong", { staticClass: "text-uppercase" }, [_vm._v("HUBUNGI KAMI")]),
+      _c("strong", { staticClass: "footer-list-title text-uppercase" }, [
+        _vm._v("HUBUNGI KAMI")
+      ]),
       _vm._v(" "),
       _c("address", [
         _c("span", { staticClass: "display-block" }, [_vm._v("0274-5305505")]),
@@ -35149,7 +35165,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row" }, [
+    return _c("div", { staticClass: "row m-top-10" }, [
       _c("div", { staticClass: "col-md-12" }, [
         _c("strong", { staticClass: "text-uppercase" }, [_vm._v("PEMBAYARAN")]),
         _vm._v(" "),
@@ -35170,9 +35186,9 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-md-9" }),
+      _c("div", { staticClass: "col-md-6" }),
       _vm._v(" "),
-      _c("div", { staticClass: "col-md-3" }, [
+      _c("div", { staticClass: "col-md-6" }, [
         _c("a", { attrs: { href: "#" } }, [_vm._v("Syarat dan Ketentuan")]),
         _vm._v(" |\n\t\t\t\t"),
         _c("a", { attrs: { href: "#" } }, [_vm._v("Kebijakan Privasi")])
