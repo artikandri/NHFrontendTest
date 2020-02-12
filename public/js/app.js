@@ -35181,7 +35181,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row m-top-10" }, [
+    return _c("div", { staticClass: "row m-top-20" }, [
       _c("div", { staticClass: "col-md-12" }, [
         _c("strong", { staticClass: "text-uppercase" }, [_vm._v("PEMBAYARAN")]),
         _vm._v(" "),
@@ -35193,7 +35193,7 @@ var staticRenderFns = [
           )
         ]),
         _vm._v(" "),
-        _c("hr")
+        _c("hr", { staticClass: "bg-gray" })
       ])
     ])
   },
@@ -35201,7 +35201,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row" }, [
+    return _c("div", { staticClass: "row m-top-20" }, [
       _c("div", { staticClass: "col-md-6" }),
       _vm._v(" "),
       _c("div", { staticClass: "col-md-6" }, [

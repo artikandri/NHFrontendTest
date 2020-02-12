@@ -115,7 +115,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="row m-top-10">
+			<div class="row m-top-20">
 				<div class="col-md-12">
 					<strong class="text-uppercase">PEMBAYARAN</strong>
 					<ul>
@@ -127,10 +127,10 @@
 						Aktivasi instan dengan E-Payment. Hosting dan Domain
 						langsung aktif!
 					</p>
-					<hr />
+					<hr class="bg-gray" />
 				</div>
 			</div>
-			<div class="row">
+			<div class="row m-top-20">
 				<div class="col-md-6"></div>
 				<div class="col-md-6">
 					<a href="#">Syarat dan Ketentuan</a> |
