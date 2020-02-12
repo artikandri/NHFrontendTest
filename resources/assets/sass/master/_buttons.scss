@@ -38,4 +38,12 @@ $buttons: (
 	font-family: var(--montserrat-bold);
 }
 
+.btn.btn-niaga.btn-padding-xs {
+	padding: 5px 10px;
+}
+
+.btn.btn-niaga.btn-normaltext {
+	font-family: var(--roboto-regular);
+}
+
 @include createBemStylingForButtons($buttons);

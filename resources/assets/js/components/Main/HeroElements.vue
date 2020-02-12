@@ -7,7 +7,7 @@
                     v-for="(feature, idx) in list.hostingFeatures"
                     :key="'feature' + idx"
                 >
-                    <img class="feature__image" :src="feature.img | imageUrl" />
+                    <img class="feature__image" :src="feature.img | svgUrl" />
                     <span v-if="feature.text" class="feature__text">
                         {{ feature.text }}
                     </span>

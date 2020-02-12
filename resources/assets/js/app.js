@@ -19,6 +19,10 @@ import { kFormatter, decimalFormat } from "@js/helpers/number-formatter.js";
 Vue.component("app", require("@js/components/App.vue").default);
 
 Vue.filter("imageUrl", function(fileName) {
+	return fileName ? require("@images/" + fileName) : "";
+});
+
+Vue.filter("svgUrl", function(fileName) {
 	return fileName ? require("@svg/" + fileName) : "";
 });
 

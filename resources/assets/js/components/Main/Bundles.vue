@@ -14,10 +14,7 @@
                     v-for="(bundle, idx) in list.hostingBundles"
                 >
                     <div class="display-block text-center">
-                        <img
-                            :src="bundle.img | imageUrl"
-                            class="bundle__image"
-                        />
+                        <img :src="bundle.img | svgUrl" class="bundle__image" />
                     </div>
                     <strong class="bundle__title display-block text-center">
                         {{ bundle.title }}

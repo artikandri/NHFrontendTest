@@ -1,9 +1,9 @@
 <template>
     <section class="main-share bg-gray-200">
         <div class="container">
-            <section class="row ">
+            <section class="row main-share__row">
                 <div class="col-md-6">
-                    <p class="share__tagline">
+                    <p class="share__tagline no-margin">
                         Bagikan jika Anda menyukai halaman ini
                     </p>
                 </div>

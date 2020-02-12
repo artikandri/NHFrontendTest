@@ -1964,9 +1964,6 @@ var _json_hosting_bundles_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PUR
 //
 //
 //
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
@@ -2836,6 +2833,32 @@ var _json_footer_tutorial_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PUR
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -2845,7 +2868,36 @@ var _json_footer_tutorial_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PUR
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
+      subscribe: "",
       list: {
+        payments: [{
+          url: "bca_logo.png",
+          id: "bca"
+        }, {
+          url: "mandiri_logo.png",
+          id: "mandiri"
+        }, {
+          url: "bni_logo.png",
+          id: "bni"
+        }, {
+          url: "visa_logo.png",
+          id: "visa"
+        }, {
+          url: "mastercard_logo.png",
+          id: "mastercard"
+        }, {
+          url: "atmbersama_logo.png",
+          id: "atmbersama"
+        }, {
+          url: "permata_logo.png",
+          id: "permata"
+        }, {
+          url: "prima_logo.png",
+          id: "prima"
+        }, {
+          url: "alto_logo.png",
+          id: "alto"
+        }],
         about: _json_footer_about_json__WEBPACK_IMPORTED_MODULE_0__,
         excellences: _json_footer_excellences_json__WEBPACK_IMPORTED_MODULE_1__,
         hostingServices: _json_footer_hosting_services_json__WEBPACK_IMPORTED_MODULE_2__,
@@ -2855,9 +2907,7 @@ var _json_footer_tutorial_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PUR
       }
     };
   },
-  mounted: function mounted() {
-    console.log("Component mounted.");
-  }
+  mounted: function mounted() {}
 });
 
 /***/ }),
@@ -34040,7 +34090,7 @@ var render = function() {
                 _c("div", { staticClass: "display-block text-center" }, [
                   _c("img", {
                     staticClass: "bundle__image",
-                    attrs: { src: _vm._f("imageUrl")(bundle.img) }
+                    attrs: { src: _vm._f("svgUrl")(bundle.img) }
                   })
                 ]),
                 _vm._v(" "),
@@ -34202,7 +34252,7 @@ var render = function() {
             [
               _c("img", {
                 staticClass: "feature__image",
-                attrs: { src: _vm._f("imageUrl")(feature.img) }
+                attrs: { src: _vm._f("svgUrl")(feature.img) }
               }),
               _vm._v(" "),
               feature.text
@@ -34845,7 +34895,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("section", { staticClass: "main-share bg-gray-200" }, [
     _c("div", { staticClass: "container" }, [
-      _c("section", { staticClass: "row " }, [
+      _c("section", { staticClass: "row main-share__row" }, [
         _vm._m(0),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-6" }, [
@@ -34892,7 +34942,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-md-6" }, [
-      _c("p", { staticClass: "share__tagline" }, [
+      _c("p", { staticClass: "share__tagline no-margin" }, [
         _vm._v(
           "\n                    Bagikan jika Anda menyukai halaman ini\n                "
         )
@@ -35051,7 +35101,7 @@ var render = function() {
         ])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "row m-top-20" }, [
+      _c("div", { staticClass: "row m-top-40" }, [
         _c("div", { staticClass: "col-md-3 col-sm-6" }, [
           _c("strong", { staticClass: "footer-list-title " }, [
             _vm._v("TENTANG KAMI")
@@ -35094,14 +35144,96 @@ var render = function() {
           )
         ]),
         _vm._v(" "),
-        _vm._m(1),
+        _c("div", { staticClass: "col-md-3 col-sm-6" }, [
+          _c("strong", { staticClass: "footer-list-title " }, [
+            _vm._v("newsletter")
+          ]),
+          _vm._v(" "),
+          _c("form", [
+            _c("fieldset", { staticClass: "footer-newsletter-form" }, [
+              _c("div", { staticClass: "input-wrapper" }, [
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.subscribe,
+                      expression: "subscribe"
+                    }
+                  ],
+                  attrs: { type: "email", placeholder: "Email" },
+                  domProps: { value: _vm.subscribe },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.subscribe = $event.target.value
+                    }
+                  }
+                }),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass:
+                      "btn btn-primary btn-niaga  btn-padding-xs btn-normaltext",
+                    attrs: { type: "button", name: "subscribeButton" }
+                  },
+                  [_vm._v("\n\t\t\t\t\t\t\t\tBerlangganan\n\t\t\t\t\t\t\t")]
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "footer-newsletter m-top-10" }, [
+              _vm._v(
+                "\n\t\t\t\t\t\tDapatkan promo dan konten terbaik dari penyedia\n\t\t\t\t\t\thosting favorit Anda.\n\t\t\t\t\t"
+              )
+            ])
+          ])
+        ]),
         _vm._v(" "),
-        _vm._m(2)
+        _vm._m(1)
       ]),
       _vm._v(" "),
-      _vm._m(3),
+      _c("div", { staticClass: "row m-top-40" }, [
+        _c("div", { staticClass: "col-md-12" }, [
+          _c("strong", { staticClass: "footer-list-title m-bottom-10" }, [
+            _vm._v("PEMBAYARAN")
+          ]),
+          _vm._v(" "),
+          _c(
+            "ul",
+            { staticClass: "payment-list" },
+            _vm._l(_vm.list.payments, function(payment, idx) {
+              return _c(
+                "li",
+                {
+                  staticClass: "payment-list__item",
+                  attrs: { title: payment.id }
+                },
+                [
+                  _c("img", {
+                    staticClass: "payment__image",
+                    attrs: { src: _vm._f("imageUrl")(payment.url) }
+                  })
+                ]
+              )
+            }),
+            0
+          ),
+          _vm._v(" "),
+          _c("p", { staticClass: "m-top-20 footer-activation" }, [
+            _vm._v(
+              "\n\t\t\t\t\tAktivasi instan dengan E-Payment. Hosting dan Domain\n\t\t\t\t\tlangsung aktif!\n\t\t\t\t"
+            )
+          ]),
+          _vm._v(" "),
+          _c("hr", {})
+        ])
+      ]),
       _vm._v(" "),
-      _vm._m(4)
+      _vm._m(2)
     ])
   ])
 }
@@ -35137,33 +35269,6 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-md-3 col-sm-6" }, [
-      _c("form", [
-        _c("fieldset", [
-          _c("input", { attrs: { type: "text" } }),
-          _vm._v(" "),
-          _c(
-            "button",
-            {
-              staticClass: "btn btn-primary",
-              attrs: { type: "button", name: "subscribeButton" }
-            },
-            [_vm._v("\n\t\t\t\t\t\t\tBerlangganan\n\t\t\t\t\t\t")]
-          )
-        ]),
-        _vm._v(" "),
-        _c("p", [
-          _vm._v(
-            "\n\t\t\t\t\t\tDapatkan promo dan konten terbaik dari penyedia\n\t\t\t\t\t\thosting favorit Anda.\n\t\t\t\t\t"
-          )
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-3 col-sm-6" }, [
       _c("a", { attrs: { href: "", title: "Facebook Page" } }, [
         _c("i", { staticClass: "fb" })
       ]),
@@ -35181,30 +35286,22 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row m-top-20" }, [
-      _c("div", { staticClass: "col-md-12" }, [
-        _c("strong", { staticClass: "text-uppercase" }, [_vm._v("PEMBAYARAN")]),
-        _vm._v(" "),
-        _c("ul", [_c("li", [_c("img", { attrs: { src: "" } })])]),
-        _vm._v(" "),
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-8 footer-copyright" }, [
         _c("p", [
           _vm._v(
-            "\n\t\t\t\t\tAktivasi instan dengan E-Payment. Hosting dan Domain\n\t\t\t\t\tlangsung aktif!\n\t\t\t\t"
+            "\n\t\t\t\t\tCopyright(c) 2016 Niagahoster | Hosting powered by PHP7,\n\t\t\t\t\tCloudLinux, CloudFare, BitNinja and DC Biznet\n\t\t\t\t\tTechnovillage Jakarta\n\t\t\t\t"
           )
         ]),
         _vm._v(" "),
-        _c("hr", { staticClass: "bg-gray" })
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row m-top-20" }, [
-      _c("div", { staticClass: "col-md-6" }),
+        _c("p", [
+          _vm._v(
+            "\n\t\t\t\t\tCloud VPS Murah powered by Webuzo Softaculous, Intel SSD\n\t\t\t\t\tand cloud computing technology\n\t\t\t\t"
+          )
+        ])
+      ]),
       _vm._v(" "),
-      _c("div", { staticClass: "col-md-6" }, [
+      _c("div", { staticClass: "col-md-4 text-right" }, [
         _c("a", { attrs: { href: "#" } }, [_vm._v("Syarat dan Ketentuan")]),
         _vm._v(" |\n\t\t\t\t"),
         _c("a", { attrs: { href: "#" } }, [_vm._v("Kebijakan Privasi")])
@@ -47536,6 +47633,50 @@ module.exports = function(module) {
 
 /***/ }),
 
+/***/ "./resources/assets/images sync recursive ^\\.\\/.*$":
+/*!***********************************************!*\
+  !*** ./resources/assets/images sync ^\.\/.*$ ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./Image support.png": "./resources/assets/images/Image support.png",
+	"./alto_logo.png": "./resources/assets/images/alto_logo.png",
+	"./atmbersama_logo.png": "./resources/assets/images/atmbersama_logo.png",
+	"./bca_logo.png": "./resources/assets/images/bca_logo.png",
+	"./bni_logo.png": "./resources/assets/images/bni_logo.png",
+	"./logo.png": "./resources/assets/images/logo.png",
+	"./mandiri_logo.png": "./resources/assets/images/mandiri_logo.png",
+	"./mastercard_logo.jpg": "./resources/assets/images/mastercard_logo.jpg",
+	"./mastercard_logo.png": "./resources/assets/images/mastercard_logo.png",
+	"./permata_logo.png": "./resources/assets/images/permata_logo.png",
+	"./prima_logo.png": "./resources/assets/images/prima_logo.png",
+	"./visa_logo.png": "./resources/assets/images/visa_logo.png"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./resources/assets/images sync recursive ^\\.\\/.*$";
+
+/***/ }),
+
 /***/ "./resources/assets/images/Image support.png":
 /*!***************************************************!*\
   !*** ./resources/assets/images/Image support.png ***!
@@ -47544,6 +47685,127 @@ module.exports = function(module) {
 /***/ (function(module, exports) {
 
 module.exports = "/images/Image support.png?a650f1f107bd550da44ee365ed7f3e02";
+
+/***/ }),
+
+/***/ "./resources/assets/images/alto_logo.png":
+/*!***********************************************!*\
+  !*** ./resources/assets/images/alto_logo.png ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/alto_logo.png?b449a22e94120164301892c73ea9edd5";
+
+/***/ }),
+
+/***/ "./resources/assets/images/atmbersama_logo.png":
+/*!*****************************************************!*\
+  !*** ./resources/assets/images/atmbersama_logo.png ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/atmbersama_logo.png?2f444a36ff4328a0e7546eb48e1750bd";
+
+/***/ }),
+
+/***/ "./resources/assets/images/bca_logo.png":
+/*!**********************************************!*\
+  !*** ./resources/assets/images/bca_logo.png ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/bca_logo.png?3ba90600c452788d2bb7b5dfb6fd6b85";
+
+/***/ }),
+
+/***/ "./resources/assets/images/bni_logo.png":
+/*!**********************************************!*\
+  !*** ./resources/assets/images/bni_logo.png ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/bni_logo.png?b4e1563cf39804c80b4b6be9fa394888";
+
+/***/ }),
+
+/***/ "./resources/assets/images/logo.png":
+/*!******************************************!*\
+  !*** ./resources/assets/images/logo.png ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/logo.png?4d8ee90b726c156b478e4f19e81d52be";
+
+/***/ }),
+
+/***/ "./resources/assets/images/mandiri_logo.png":
+/*!**************************************************!*\
+  !*** ./resources/assets/images/mandiri_logo.png ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/mandiri_logo.png?302713064d864261205904e5a9e77dce";
+
+/***/ }),
+
+/***/ "./resources/assets/images/mastercard_logo.jpg":
+/*!*****************************************************!*\
+  !*** ./resources/assets/images/mastercard_logo.jpg ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/mastercard_logo.jpg?bd6e41c7a9445d306750cad0589be448";
+
+/***/ }),
+
+/***/ "./resources/assets/images/mastercard_logo.png":
+/*!*****************************************************!*\
+  !*** ./resources/assets/images/mastercard_logo.png ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/mastercard_logo.png?7129475c35395e40cb09ecbf34edf56f";
+
+/***/ }),
+
+/***/ "./resources/assets/images/permata_logo.png":
+/*!**************************************************!*\
+  !*** ./resources/assets/images/permata_logo.png ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/permata_logo.png?2ce399cf2381584d38d9af8e8f7d2ff7";
+
+/***/ }),
+
+/***/ "./resources/assets/images/prima_logo.png":
+/*!************************************************!*\
+  !*** ./resources/assets/images/prima_logo.png ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/prima_logo.png?fb816bb6b00493268fdcbf8022b44d78";
+
+/***/ }),
+
+/***/ "./resources/assets/images/visa_logo.png":
+/*!***********************************************!*\
+  !*** ./resources/assets/images/visa_logo.png ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/visa_logo.png?be9581282b3eb60e600af6b1975a431e";
 
 /***/ }),
 
@@ -47574,6 +47836,9 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 
 Vue.component("app", __webpack_require__(/*! @js/components/App.vue */ "./resources/assets/js/components/App.vue")["default"]);
 Vue.filter("imageUrl", function (fileName) {
+  return fileName ? __webpack_require__("./resources/assets/images sync recursive ^\\.\\/.*$")("./" + fileName) : "";
+});
+Vue.filter("svgUrl", function (fileName) {
   return fileName ? __webpack_require__("./resources/assets/svg sync recursive ^\\.\\/.*$")("./" + fileName) : "";
 });
 Vue.filter("kFormatter", _js_helpers_number_formatter_js__WEBPACK_IMPORTED_MODULE_0__["kFormatter"]);

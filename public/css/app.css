@@ -1004,6 +1004,14 @@ body {
   font-family: var(--montserrat-bold);
 }
 
+.btn.btn-niaga.btn-padding-xs {
+  padding: 5px 10px;
+}
+
+.btn.btn-niaga.btn-normaltext {
+  font-family: var(--roboto-regular);
+}
+
 .btn-niaga.btn-primary {
   background-color: #0090ef;
   color: #fff;
@@ -9484,19 +9492,32 @@ a:hover {
 
 .footer--wrapper {
   background-color: #303030;
-  color: #636363;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  color: #969696;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .footer--wrapper hr {
-  color: #4a4a4a;
+  border-color: #232323;
 }
 
 .footer--wrapper .footer-list-title {
   text-transform: uppercase;
   display: block;
   margin-bottom: 20px;
+  color: #636363;
+}
+
+.footer--wrapper .footer-newsletter {
+  color: #636363;
+}
+
+.footer--wrapper .footer-activation {
+  color: #4a4a4a;
+}
+
+.footer--wrapper .footer-copyright {
+  color: #969696;
 }
 
 .footer--wrapper .footer-link-list {
@@ -9507,6 +9528,46 @@ a:hover {
 .footer--wrapper .footer-link-list .footer-link-list__item {
   list-style-type: none;
   line-height: 1.5;
+}
+
+.footer--wrapper .payment-list {
+  padding: 0;
+  margin: 0;
+}
+
+.footer--wrapper .payment-list .payment-list__item {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.footer--wrapper .payment-list .payment-list__item .payment__image {
+  max-height: 30px;
+  opacity: 0.75;
+}
+
+.footer--wrapper .payment-list .payment-list__item + .payment-list__item {
+  margin-left: 10px;
+}
+
+.footer-newsletter-form .input-wrapper {
+  position: relative;
+  max-width: 500px;
+}
+
+.footer-newsletter-form .input-wrapper > input {
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 25px;
+  width: 100%;
+  z-index: 0;
+}
+
+.footer-newsletter-form .input-wrapper > button {
+  color: #fafafa;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 1;
 }
 
 .main-hero {
@@ -9814,6 +9875,20 @@ a:hover {
 .main-share {
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+.main-share .main-share__row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-share .main-share__row > * {
+  display: flex;
+  align-items: center;
+}
+
+.main-share .main-share__row > *:nth-of-type(2) {
+  justify-content: flex-end;
 }
 
 .main-share .share__tagline {
