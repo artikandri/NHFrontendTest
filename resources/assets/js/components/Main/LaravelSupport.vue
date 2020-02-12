@@ -48,7 +48,7 @@
                     <button
                         type="button"
                         name="hostingButton"
-                        class="btn btn-primary m-top-20 btn-niaga"
+                        class="btn btn-primary m-top-10 btn-niaga"
                     >
                         Pilih Hosting Anda
                     </button>

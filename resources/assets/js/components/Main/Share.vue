@@ -2,8 +2,8 @@
     <section class="main-share bg-gray-200">
         <div class="container">
             <section class="row ">
-                <div class="col-md-12">
-                    <p>
+                <div class="col-md-6">
+                    <p class="share__tagline">
                         Bagikan jika Anda menyukai halaman ini
                     </p>
                 </div>
@@ -15,9 +15,13 @@
                             class="share-list__item"
                         >
                             <i
+                                class="share-icon"
                                 :class="share.icon"
                                 :style="'color: ' + share.color + ';'"
                             ></i>
+                            <span class="share-count">
+                                {{ share.count }}
+                            </span>
                         </li>
                     </ul>
                 </div>

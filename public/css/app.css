@@ -9797,6 +9797,17 @@ a:visited {
   list-style-type: none;
 }
 
+.main-share {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.main-share .share__tagline {
+  font-size: 24.5px;
+  font-size: 2.1875rem;
+  margin: 0;
+}
+
 .main-share .share-list {
   margin: 0;
   padding: 0;
@@ -9807,9 +9818,15 @@ a:visited {
   display: inline-block;
 }
 
+.main-share .share-list .share-list__item .share-count {
+  color: #303030;
+  padding: 5px;
+  border: 1px solid #f1f1f1;
+}
+
 .main-support {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .main-support__tagline {

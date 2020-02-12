@@ -29,6 +29,14 @@
 @import "home/main-phpmodules";
 
 .main-share {
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+	.share__tagline {
+		@include fontSize(1.75);
+		margin: 0;
+	}
+
 	.share-list {
 		margin: 0;
 		padding: 0;
@@ -36,13 +44,22 @@
 		.share-list__item {
 			list-style-type: none;
 			display: inline-block;
+
+			.share-icon {
+			}
+
+			.share-count {
+				color: $brand-disabled;
+				padding: 5px;
+				border: 1px solid $border-color;
+			}
 		}
 	}
 }
 
 .main-support {
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 .main-support__tagline {

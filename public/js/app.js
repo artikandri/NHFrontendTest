@@ -2576,6 +2576,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -33840,7 +33844,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "container-fluid" },
+    {},
     [
       _c("hero"),
       _vm._v(" "),
@@ -34483,7 +34487,7 @@ var render = function() {
           _c(
             "button",
             {
-              staticClass: "btn btn-primary m-top-20 btn-niaga",
+              staticClass: "btn btn-primary m-top-10 btn-niaga",
               attrs: { type: "button", name: "hostingButton" }
             },
             [
@@ -34826,9 +34830,18 @@ var render = function() {
                 { key: "share" + idx, staticClass: "share-list__item" },
                 [
                   _c("i", {
+                    staticClass: "share-icon",
                     class: share.icon,
                     style: "color: " + share.color + ";"
-                  })
+                  }),
+                  _vm._v(" "),
+                  _c("span", { staticClass: "share-count" }, [
+                    _vm._v(
+                      "\n                            " +
+                        _vm._s(share.count) +
+                        "\n                        "
+                    )
+                  ])
                 ]
               )
             }),
@@ -34844,8 +34857,8 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-12" }, [
-      _c("p", [
+    return _c("div", { staticClass: "col-md-6" }, [
+      _c("p", { staticClass: "share__tagline" }, [
         _vm._v(
           "\n                    Bagikan jika Anda menyukai halaman ini\n                "
         )
@@ -34935,7 +34948,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container-fluid footer--wrapper" }, [
+  return _c("div", { staticClass: "footer--wrapper" }, [
     _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "row" }, [
         _vm._m(0),
@@ -35181,7 +35194,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "container-fluid" },
+    { staticClass: "header--wrapper" },
     [_c("header-contact"), _vm._v(" "), _c("header-nav")],
     1
   )
