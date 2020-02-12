@@ -35459,10 +35459,10 @@ var render = function() {
   return _c("section", { staticClass: "header-nav" }, [
     _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-2 header-nav__logo" }),
+        _vm._m(0),
         _vm._v(" "),
-        _c("div", { staticClass: "col-md-10" }, [
-          _vm._m(0),
+        _c("div", { staticClass: "col-md-10 col-sm-8" }, [
+          _vm._m(1),
           _vm._v(" "),
           _c(
             "nav",
@@ -35496,6 +35496,17 @@ var render = function() {
   ])
 }
 var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md-2 col-sm-4 header-nav__logo" }, [
+      _c("img", {
+        staticClass: "logo__image",
+        attrs: { src: __webpack_require__(/*! @images/logo.png */ "./resources/assets/images/logo.png") }
+      })
+    ])
+  },
   function() {
     var _vm = this
     var _h = _vm.$createElement

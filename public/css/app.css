@@ -9906,6 +9906,11 @@ a:hover {
   list-style-type: none;
 }
 
+[class^=main-] img {
+  max-height: 500px;
+  max-width: 100%;
+}
+
 .main-share {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -9998,5 +10003,17 @@ a:hover {
 .main-support__tagline {
   font-size: 24.5px;
   font-size: 2.1875rem;
+}
+
+@media only screen and (max-width: 768px) {
+  [class^=main-] .row > [class^=col-],
+  [class^=footer-] .row > [class^=col-] {
+    padding-bottom: 10px;
+  }
+
+  [class^=main-] .row > [class^=col-]:last-of-type,
+  [class^=footer-] .row > [class^=col-]:last-of-type {
+    padding-bottom: 20px;
+  }
 }
 

@@ -2,11 +2,11 @@
 	<section class="header-nav">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-2 header-nav__logo">
-					<!-- <img src="@images/logo.png" class="logo__image" /> -->
+				<div class="col-md-2 col-sm-4 header-nav__logo">
+					<img src="@images/logo.png" class="logo__image" />
 				</div>
 
-				<div class="col-md-10">
+				<div class="col-md-10 col-sm-8">
 					<nav
 						class="header-nav__navbar navbar-header nav navbar-inverse navbar-static-top"
 					>

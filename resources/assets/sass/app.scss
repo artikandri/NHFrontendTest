@@ -28,6 +28,11 @@
 @import "home/main-hostingbenefits";
 @import "home/main-phpmodules";
 
+[class^="main-"] img {
+	max-height: 500px;
+	max-width: 100%;
+}
+
 .main-share {
 	padding-top: 40px;
 	padding-bottom: 40px;
@@ -117,4 +122,17 @@
 
 .main-support__tagline {
 	@include fontSize(1.75);
+}
+
+@media only screen and (max-width: map-get($breakpoints, "md")) {
+	[class^="main-"] .row,
+	[class^="footer-"] .row {
+		> [class^="col-"] {
+			padding-bottom: 10px;
+
+			&:last-of-type {
+				padding-bottom: 20px;
+			}
+		}
+	}
 }
