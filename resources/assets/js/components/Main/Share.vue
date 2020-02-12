@@ -22,7 +22,7 @@
                                     :style="'color: ' + share.color + ';'"
                                 ></i>
                                 <span class="share-count">
-                                    {{ share.count }}
+                                    {{ share.count | shareCountFormat }}
                                 </span>
                             </a>
                         </li>
@@ -34,6 +34,7 @@
 </template>
 
 <script>
+import { kFormatter, decimalFormat } from "@js/helpers/number-formatter.js";
 export default {
     data() {
         return {
@@ -60,6 +61,17 @@ export default {
                 ]
             }
         };
+    },
+    filters: {
+        shareCountFormat(num = 0) {
+            let res = parseInt(num);
+            if (num > 9999) {
+                res = kFormatter(num);
+            } else {
+                res = decimalFormat(num);
+            }
+            return res;
+        }
     },
     mounted() {
         // do something

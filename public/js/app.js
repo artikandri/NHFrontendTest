@@ -2548,6 +2548,7 @@ var _json_php_modules_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _js_helpers_number_formatter_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @js/helpers/number-formatter.js */ "./resources/assets/js/helpers/number-formatter.js");
 //
 //
 //
@@ -2583,6 +2584,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -2605,6 +2607,20 @@ __webpack_require__.r(__webpack_exports__);
         }]
       }
     };
+  },
+  filters: {
+    shareCountFormat: function shareCountFormat() {
+      var num = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
+      var res = parseInt(num);
+
+      if (num > 9999) {
+        res = Object(_js_helpers_number_formatter_js__WEBPACK_IMPORTED_MODULE_0__["kFormatter"])(num);
+      } else {
+        res = Object(_js_helpers_number_formatter_js__WEBPACK_IMPORTED_MODULE_0__["decimalFormat"])(num);
+      }
+
+      return res;
+    }
   },
   mounted: function mounted() {// do something
   }
@@ -34855,7 +34871,7 @@ var render = function() {
                     _c("span", { staticClass: "share-count" }, [
                       _vm._v(
                         "\n                                " +
-                          _vm._s(share.count) +
+                          _vm._s(_vm._f("shareCountFormat")(share.count)) +
                           "\n                            "
                       )
                     ])
@@ -47535,9 +47551,12 @@ module.exports = "/images/Image support.png?a650f1f107bd550da44ee365ed7f3e02";
 /*!************************************!*\
   !*** ./resources/assets/js/app.js ***!
   \************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _js_helpers_number_formatter_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @js/helpers/number-formatter.js */ "./resources/assets/js/helpers/number-formatter.js");
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -47552,27 +47571,13 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+
 Vue.component("app", __webpack_require__(/*! @js/components/App.vue */ "./resources/assets/js/components/App.vue")["default"]);
 Vue.filter("imageUrl", function (fileName) {
   return fileName ? __webpack_require__("./resources/assets/svg sync recursive ^\\.\\/.*$")("./" + fileName) : "";
 });
-Vue.filter("decimalFormat", function () {
-  var amount = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
-  var decimalCount = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
-  var decimal = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : ",";
-  var thousands = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : ".";
-
-  try {
-    decimalCount = Math.abs(decimalCount);
-    decimalCount = isNaN(decimalCount) ? 2 : decimalCount;
-    var negativeSign = amount < 0 ? "-" : "";
-    var i = parseInt(amount = Math.abs(Number(amount) || 0).toFixed(decimalCount)).toString();
-    var j = i.length > 3 ? i.length % 3 : 0;
-    return negativeSign + (j ? i.substr(0, j) + thousands : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + thousands) + (decimalCount ? decimal + Math.abs(amount - i).toFixed(decimalCount).slice(2) : "");
-  } catch (e) {
-    console.log(e);
-  }
-});
+Vue.filter("kFormatter", _js_helpers_number_formatter_js__WEBPACK_IMPORTED_MODULE_0__["kFormatter"]);
+Vue.filter("decimalFormat", _js_helpers_number_formatter_js__WEBPACK_IMPORTED_MODULE_0__["decimalFormat"]);
 var app = new Vue({
   el: "#app"
 });
@@ -48733,6 +48738,43 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HeaderNav_vue_vue_type_template_id_719d6ffa___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HeaderNav_vue_vue_type_template_id_719d6ffa___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/assets/js/helpers/number-formatter.js":
+/*!*********************************************************!*\
+  !*** ./resources/assets/js/helpers/number-formatter.js ***!
+  \*********************************************************/
+/*! exports provided: kFormatter, decimalFormat */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "kFormatter", function() { return kFormatter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "decimalFormat", function() { return decimalFormat; });
+var kFormatter = function kFormatter(num) {
+  return Math.abs(num) > 999 ? Math.sign(num) * (Math.abs(num) / 1000).toFixed(1) + "k" : Math.sign(num) * Math.abs(num);
+};
+
+var decimalFormat = function decimalFormat() {
+  var amount = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
+  var decimalCount = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
+  var decimal = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : ",";
+  var thousands = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : ".";
+
+  try {
+    decimalCount = Math.abs(decimalCount);
+    decimalCount = isNaN(decimalCount) ? 2 : decimalCount;
+    var negativeSign = amount < 0 ? "-" : "";
+    var i = parseInt(amount = Math.abs(Number(amount) || 0).toFixed(decimalCount)).toString();
+    var j = i.length > 3 ? i.length % 3 : 0;
+    return negativeSign + (j ? i.substr(0, j) + thousands : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + thousands) + (decimalCount ? decimal + Math.abs(amount - i).toFixed(decimalCount).slice(2) : "");
+  } catch (e) {
+    console.log(e);
+  }
+};
 
 
 
