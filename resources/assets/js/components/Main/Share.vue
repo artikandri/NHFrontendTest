@@ -10,18 +10,21 @@
                 <div class="col-md-6">
                     <ul class="share-list">
                         <li
+                            :title="'Share on ' + share.id"
                             v-for="(share, idx) in list.shares"
                             :key="'share' + idx"
                             class="share-list__item"
                         >
-                            <i
-                                class="share-icon"
-                                :class="share.icon"
-                                :style="'color: ' + share.color + ';'"
-                            ></i>
-                            <span class="share-count">
-                                {{ share.count }}
-                            </span>
+                            <a href="" class="share-link">
+                                <i
+                                    class="share-icon"
+                                    :class="share.icon"
+                                    :style="'color: ' + share.color + ';'"
+                                ></i>
+                                <span class="share-count">
+                                    {{ share.count }}
+                                </span>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -38,19 +41,19 @@ export default {
                 shares: [
                     {
                         id: "facebook",
-                        icon: "fa fa-facebook-share",
+                        icon: "fa fa-facebook-square",
                         color: "#3b5998",
                         count: 80000
                     },
                     {
                         id: "twitter",
-                        icon: "",
+                        icon: "fa fa-twitter-square",
                         color: "#00acee",
                         count: 450
                     },
                     {
                         id: "googlePlus",
-                        icon: "",
+                        icon: "fa fa-google-plus-square",
                         color: "#d34836",
                         count: 1900
                     }

@@ -2580,23 +2580,26 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
       list: {
         shares: [{
           id: "facebook",
-          icon: "fa fa-facebook-share",
+          icon: "fa fa-facebook-square",
           color: "#3b5998",
           count: 80000
         }, {
           id: "twitter",
-          icon: "",
+          icon: "fa fa-twitter-square",
           color: "#00acee",
           count: 450
         }, {
           id: "googlePlus",
-          icon: "",
+          icon: "fa fa-google-plus-square",
           color: "#d34836",
           count: 1900
         }]
@@ -34827,20 +34830,26 @@ var render = function() {
             _vm._l(_vm.list.shares, function(share, idx) {
               return _c(
                 "li",
-                { key: "share" + idx, staticClass: "share-list__item" },
+                {
+                  key: "share" + idx,
+                  staticClass: "share-list__item",
+                  attrs: { title: "Share on " + share.id }
+                },
                 [
-                  _c("i", {
-                    staticClass: "share-icon",
-                    class: share.icon,
-                    style: "color: " + share.color + ";"
-                  }),
-                  _vm._v(" "),
-                  _c("span", { staticClass: "share-count" }, [
-                    _vm._v(
-                      "\n                            " +
-                        _vm._s(share.count) +
-                        "\n                        "
-                    )
+                  _c("a", { staticClass: "share-link", attrs: { href: "" } }, [
+                    _c("i", {
+                      staticClass: "share-icon",
+                      class: share.icon,
+                      style: "color: " + share.color + ";"
+                    }),
+                    _vm._v(" "),
+                    _c("span", { staticClass: "share-count" }, [
+                      _vm._v(
+                        "\n                                " +
+                          _vm._s(share.count) +
+                          "\n                            "
+                      )
+                    ])
                   ])
                 ]
               )
