@@ -94,6 +94,26 @@
                                             ></span>
                                         </li>
                                     </ul>
+                                    <button
+                                        type="button"
+                                        :name="'chooseButton' + idx"
+                                        class="btn btn-niaga m-top-25"
+                                        :class="
+                                            hostingPackage.recommended
+                                                ? 'btn-primary'
+                                                : 'btn-dark btn-bordered'
+                                        "
+                                    >
+                                        <span>
+                                            {{
+                                                !!hostingPackage.discount
+                                                    ? "Discount " +
+                                                      hostingPackage.discount +
+                                                      hostingPackage.discountUnit
+                                                    : "Pilih sekarang"
+                                            }}
+                                        </span>
+                                    </button>
                                 </div>
                             </div>
                         </li>

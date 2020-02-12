@@ -1,0 +1,41 @@
+$buttons: (
+	primary: (
+		base: $brand-primary,
+		text: $brand-white,
+		border: $brand-primary
+	),
+	light: (
+		base: $brand-white,
+		text: transparent,
+		border: $brand-white
+	),
+	dark: (
+		base: $dark-primary,
+		text: $brand-white,
+		border: $dark-primary
+	)
+);
+
+@mixin createBemStylingForButtons($buttons) {
+	@each $buttonName, $buttonValue in $buttons {
+		.btn-niaga.btn-#{$buttonName} {
+			background-color: map-get($buttonValue, "base");
+			color: map-get($buttonValue, "text");
+			border: 1px solid map-get($buttonValue, "base");
+		}
+
+		.btn-niaga.btn-#{$buttonName}.btn-bordered {
+			background-color: map-get($buttonValue, "text");
+			color: map-get($buttonValue, "base");
+			border: 2px solid map-get($buttonValue, "border");
+		}
+	}
+}
+
+.btn.btn-niaga {
+	border-radius: $border-radius;
+	padding: 10px 20px;
+	font-family: var(--montserrat-bold);
+}
+
+@include createBemStylingForButtons($buttons);

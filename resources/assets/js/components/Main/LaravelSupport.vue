@@ -39,13 +39,19 @@
                             ></p>
                         </li>
                     </ul>
-
                     <p>
                         <small
                             >Nb: Composer dan SSH hanya tersedia pada paket
                             Personal dan Bisnis</small
                         >
                     </p>
+                    <button
+                        type="button"
+                        name="hostingButton"
+                        class="btn btn-primary m-top-20 btn-niaga"
+                    >
+                        Pilih Hosting Anda
+                    </button>
                 </article>
                 <div class="col-md-5 main-hero__image">
                     <img

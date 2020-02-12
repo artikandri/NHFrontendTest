@@ -8,6 +8,7 @@
 @import "master/fonts";
 @import "master/typography";
 @import "master/positions";
+@import "master/buttons";
 
 @import "elements/ribbon";
 
@@ -27,3 +28,23 @@
 @import "home/main-hostingbenefits";
 @import "home/main-phpmodules";
 
+.main-share {
+	.share-list {
+		margin: 0;
+		padding: 0;
+
+		.share-list__item {
+			list-style-type: none;
+			display: inline-block;
+		}
+	}
+}
+
+.main-support {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.main-support__tagline {
+	@include fontSize(1.75);
+}

@@ -7,7 +7,7 @@ $colors: (
 	dark-primary: #424242,
 	dark-secondary: #303030,
 	dark: #424242,
-	white: #fff
+	light: #fff
 );
 
 @include create2DBemStyling("background-color", $colors, "bg");

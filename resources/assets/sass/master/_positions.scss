@@ -13,6 +13,23 @@ $displays: (
 
 $margins: ("top", "bottom", "right", "left");
 
+@mixin createBemPositionStyling(
+	$positions,
+	$className,
+	$propertyName,
+	$isImportant: true
+) {
+	@for $i from 1 to 20 {
+		@each $position in $positions {
+			.#{$className}-#{$position}-#{$i*5} {
+				#{$propertyName}-#{$position}: #{$i *
+					5}px
+					#{if($isImportant, "!important", "")};
+			}
+		}
+	}
+}
+
 @include createBemStyling("position", $positions, "position");
 @include createBemStyling("display", $displays, "display");
 @include createBemStylingWithCustomPropertyAndFixedValue(
@@ -27,3 +44,5 @@ $margins: ("top", "bottom", "right", "left");
 	"no-padding",
 	0
 );
+@include createBemPositionStyling($margins, "m", "margin");
+@include createBemPositionStyling($margins, "p", "padding");

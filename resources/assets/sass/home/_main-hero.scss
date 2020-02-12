@@ -60,3 +60,9 @@
 		}
 	}
 }
+
+.main-hero__text .article-wrapper {
+	.article__content {
+		@include fontSize(1.25);
+	}
+}

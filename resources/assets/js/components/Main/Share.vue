@@ -1,19 +1,61 @@
 <template>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4 col-md-3">
-                
-            </div>
-            <div class="col-md-8 col-sm-7 col-sm-offset-1 col-md-offset-1">
-            </div>
+    <section class="main-share bg-gray-200">
+        <div class="container">
+            <section class="row ">
+                <div class="col-md-12">
+                    <p>
+                        Bagikan jika Anda menyukai halaman ini
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="share-list">
+                        <li
+                            v-for="(share, idx) in list.shares"
+                            :key="'share' + idx"
+                            class="share-list__item"
+                        >
+                            <i
+                                :class="share.icon"
+                                :style="'color: ' + share.color + ';'"
+                            ></i>
+                        </li>
+                    </ul>
+                </div>
+            </section>
         </div>
-    </div>
+    </section>
 </template>
 
 <script>
-    export default {
-        mounted() {
-            console.log('Component mounted.')
-        }
+export default {
+    data() {
+        return {
+            list: {
+                shares: [
+                    {
+                        id: "facebook",
+                        icon: "fa fa-facebook-share",
+                        color: "#3b5998",
+                        count: 80000
+                    },
+                    {
+                        id: "twitter",
+                        icon: "",
+                        color: "#00acee",
+                        count: 450
+                    },
+                    {
+                        id: "googlePlus",
+                        icon: "",
+                        color: "#d34836",
+                        count: 1900
+                    }
+                ]
+            }
+        };
+    },
+    mounted() {
+        // do something
     }
+};
 </script>

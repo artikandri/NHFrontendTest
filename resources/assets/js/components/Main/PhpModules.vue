@@ -7,7 +7,7 @@
                         Modul lengkap untuk menjalankan aplikasi PHP Anda
                     </h1>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <ul class="php-modules-list">
                         <li
                             :key="'module' + idx"
@@ -21,7 +21,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <ul class="php-modules-list">
                         <li
                             :key="'module' + idx"
@@ -35,7 +35,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <ul class="php-modules-list">
                         <li
                             :key="'module' + idx"
@@ -49,7 +49,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <ul class="php-modules-list">
                         <li
                             :key="'module' + idx"
@@ -62,6 +62,16 @@
                             {{ module }}
                         </li>
                     </ul>
+                </div>
+            </div>
+            <div class="row m-top-20">
+                <div class="col-md-12 text-center">
+                    <button
+                        type="button"
+                        class="btn btn-niaga btn-dark btn-bordered"
+                    >
+                        Selengkapnya
+                    </button>
                 </div>
             </div>
         </div>
