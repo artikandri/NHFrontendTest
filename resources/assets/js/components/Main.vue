@@ -8,15 +8,7 @@
         <bundles/>
         <hr class="mini-hr" />
         <laravel-support />
-
-        <section class="row">
-            <h1>Modul lengkap untuk menjalankan aplikasi PHP Anda</h1>
-            <ul class="">
-                <li v-for="(module, idx) in phpModules">
-                    {{ module }}
-                </li>
-            </ul>
-        </section>
+        <php-modules/>
         <section class="row">
             <div class="col-md-6">
                 <article>
@@ -66,6 +58,7 @@ import HostingPackages from '@components/Main/HostingPackages.vue';
 import Benefits from '@components/Main/Benefits.vue';
 import LaravelSupport from '@components/Main/LaravelSupport.vue';
 import Bundles from '@components/Main/Bundles.vue';
+import PhpModules from '@components/Main/PhpModules.vue';
 
 
 import niagahosterBenefits from "@json/niagahoster-benefits.json";
@@ -82,7 +75,8 @@ export default {
         HostingPackages,
         Benefits,
         LaravelSupport,
-        Bundles
+        Bundles,
+        PhpModules
     },
     data() {
         return {

@@ -1788,20 +1788,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Main_Benefits_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @components/Main/Benefits.vue */ "./resources/assets/js/components/Main/Benefits.vue");
 /* harmony import */ var _components_Main_LaravelSupport_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @components/Main/LaravelSupport.vue */ "./resources/assets/js/components/Main/LaravelSupport.vue");
 /* harmony import */ var _components_Main_Bundles_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @components/Main/Bundles.vue */ "./resources/assets/js/components/Main/Bundles.vue");
-/* harmony import */ var _json_niagahoster_benefits_json__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @json/niagahoster-benefits.json */ "./resources/assets/json/niagahoster-benefits.json");
-var _json_niagahoster_benefits_json__WEBPACK_IMPORTED_MODULE_6___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/niagahoster-benefits.json */ "./resources/assets/json/niagahoster-benefits.json", 1);
-/* harmony import */ var _json_hosting_features_json__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @json/hosting-features.json */ "./resources/assets/json/hosting-features.json");
-var _json_hosting_features_json__WEBPACK_IMPORTED_MODULE_7___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/hosting-features.json */ "./resources/assets/json/hosting-features.json", 1);
-/* harmony import */ var _json_hosting_packages_json__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @json/hosting-packages.json */ "./resources/assets/json/hosting-packages.json");
-var _json_hosting_packages_json__WEBPACK_IMPORTED_MODULE_8___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/hosting-packages.json */ "./resources/assets/json/hosting-packages.json", 1);
-/* harmony import */ var _json_hosting_benefits_json__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @json/hosting-benefits.json */ "./resources/assets/json/hosting-benefits.json");
-var _json_hosting_benefits_json__WEBPACK_IMPORTED_MODULE_9___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/hosting-benefits.json */ "./resources/assets/json/hosting-benefits.json", 1);
-/* harmony import */ var _json_hosting_bundles_json__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @json/hosting-bundles.json */ "./resources/assets/json/hosting-bundles.json");
-var _json_hosting_bundles_json__WEBPACK_IMPORTED_MODULE_10___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/hosting-bundles.json */ "./resources/assets/json/hosting-bundles.json", 1);
-/* harmony import */ var _json_php_modules_json__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @json/php-modules.json */ "./resources/assets/json/php-modules.json");
-var _json_php_modules_json__WEBPACK_IMPORTED_MODULE_11___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/php-modules.json */ "./resources/assets/json/php-modules.json", 1);
-/* harmony import */ var _json_hosting_laravel_json__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @json/hosting-laravel.json */ "./resources/assets/json/hosting-laravel.json");
-var _json_hosting_laravel_json__WEBPACK_IMPORTED_MODULE_12___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/hosting-laravel.json */ "./resources/assets/json/hosting-laravel.json", 1);
+/* harmony import */ var _components_Main_PhpModules_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @components/Main/PhpModules.vue */ "./resources/assets/js/components/Main/PhpModules.vue");
+/* harmony import */ var _json_niagahoster_benefits_json__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @json/niagahoster-benefits.json */ "./resources/assets/json/niagahoster-benefits.json");
+var _json_niagahoster_benefits_json__WEBPACK_IMPORTED_MODULE_7___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/niagahoster-benefits.json */ "./resources/assets/json/niagahoster-benefits.json", 1);
+/* harmony import */ var _json_hosting_features_json__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @json/hosting-features.json */ "./resources/assets/json/hosting-features.json");
+var _json_hosting_features_json__WEBPACK_IMPORTED_MODULE_8___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/hosting-features.json */ "./resources/assets/json/hosting-features.json", 1);
+/* harmony import */ var _json_hosting_packages_json__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @json/hosting-packages.json */ "./resources/assets/json/hosting-packages.json");
+var _json_hosting_packages_json__WEBPACK_IMPORTED_MODULE_9___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/hosting-packages.json */ "./resources/assets/json/hosting-packages.json", 1);
+/* harmony import */ var _json_hosting_benefits_json__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @json/hosting-benefits.json */ "./resources/assets/json/hosting-benefits.json");
+var _json_hosting_benefits_json__WEBPACK_IMPORTED_MODULE_10___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/hosting-benefits.json */ "./resources/assets/json/hosting-benefits.json", 1);
+/* harmony import */ var _json_hosting_bundles_json__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @json/hosting-bundles.json */ "./resources/assets/json/hosting-bundles.json");
+var _json_hosting_bundles_json__WEBPACK_IMPORTED_MODULE_11___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/hosting-bundles.json */ "./resources/assets/json/hosting-bundles.json", 1);
+/* harmony import */ var _json_php_modules_json__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @json/php-modules.json */ "./resources/assets/json/php-modules.json");
+var _json_php_modules_json__WEBPACK_IMPORTED_MODULE_12___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/php-modules.json */ "./resources/assets/json/php-modules.json", 1);
+/* harmony import */ var _json_hosting_laravel_json__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @json/hosting-laravel.json */ "./resources/assets/json/hosting-laravel.json");
+var _json_hosting_laravel_json__WEBPACK_IMPORTED_MODULE_13___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/hosting-laravel.json */ "./resources/assets/json/hosting-laravel.json", 1);
 //
 //
 //
@@ -1855,14 +1856,7 @@ var _json_hosting_laravel_json__WEBPACK_IMPORTED_MODULE_12___namespace = /*#__PU
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
+
 
 
 
@@ -1883,17 +1877,18 @@ var _json_hosting_laravel_json__WEBPACK_IMPORTED_MODULE_12___namespace = /*#__PU
     HostingPackages: _components_Main_HostingPackages_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
     Benefits: _components_Main_Benefits_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
     LaravelSupport: _components_Main_LaravelSupport_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
-    Bundles: _components_Main_Bundles_vue__WEBPACK_IMPORTED_MODULE_5__["default"]
+    Bundles: _components_Main_Bundles_vue__WEBPACK_IMPORTED_MODULE_5__["default"],
+    PhpModules: _components_Main_PhpModules_vue__WEBPACK_IMPORTED_MODULE_6__["default"]
   },
   data: function data() {
     return {
-      phpModules: _json_php_modules_json__WEBPACK_IMPORTED_MODULE_11__ || [],
-      hostingLaravel: _json_hosting_laravel_json__WEBPACK_IMPORTED_MODULE_12__ || [],
-      hostingPackages: _json_hosting_packages_json__WEBPACK_IMPORTED_MODULE_8__ || [],
-      hostingFeatures: _json_hosting_features_json__WEBPACK_IMPORTED_MODULE_7__ || [],
-      hostingBenefits: _json_hosting_benefits_json__WEBPACK_IMPORTED_MODULE_9__ || [],
-      hostingBundles: _json_hosting_bundles_json__WEBPACK_IMPORTED_MODULE_10__ || [],
-      benefits: _json_niagahoster_benefits_json__WEBPACK_IMPORTED_MODULE_6__ || []
+      phpModules: _json_php_modules_json__WEBPACK_IMPORTED_MODULE_12__ || [],
+      hostingLaravel: _json_hosting_laravel_json__WEBPACK_IMPORTED_MODULE_13__ || [],
+      hostingPackages: _json_hosting_packages_json__WEBPACK_IMPORTED_MODULE_9__ || [],
+      hostingFeatures: _json_hosting_features_json__WEBPACK_IMPORTED_MODULE_8__ || [],
+      hostingBenefits: _json_hosting_benefits_json__WEBPACK_IMPORTED_MODULE_10__ || [],
+      hostingBundles: _json_hosting_bundles_json__WEBPACK_IMPORTED_MODULE_11__ || [],
+      benefits: _json_niagahoster_benefits_json__WEBPACK_IMPORTED_MODULE_7__ || []
     };
   },
   mounted: function mounted() {// do something ...
@@ -1995,6 +1990,8 @@ var _json_hosting_benefits_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PU
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _json_hosting_bundles_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @json/hosting-bundles.json */ "./resources/assets/json/hosting-bundles.json");
 var _json_hosting_bundles_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/hosting-bundles.json */ "./resources/assets/json/hosting-bundles.json", 1);
+//
+//
 //
 //
 //
@@ -2379,6 +2376,8 @@ var _json_hosting_laravel_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PUR
 //
 //
 //
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
@@ -2389,6 +2388,118 @@ var _json_hosting_laravel_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PUR
     };
   },
   mounted: function mounted() {// do something...
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/assets/js/components/Main/PhpModules.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/assets/js/components/Main/PhpModules.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _json_php_modules_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @json/php-modules.json */ "./resources/assets/json/php-modules.json");
+var _json_php_modules_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/php-modules.json */ "./resources/assets/json/php-modules.json", 1);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      list: {
+        phpModules: _json_php_modules_json__WEBPACK_IMPORTED_MODULE_0__
+      }
+    };
+  },
+  mounted: function mounted() {// do something...
+  },
+  methods: {
+    sliceModule: function sliceModule() {
+      var list = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
+      var order = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1;
+      var columnCount = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 4;
+
+      var clonedList = _.cloneDeep(list);
+
+      var listLength = list.length + 1;
+      var idealSliceLength = parseInt(listLength / columnCount);
+      var sliceStart = (order == 1 ? 0 : order - 1) * idealSliceLength;
+      sliceStart = order == 1 ? sliceStart : sliceStart - 1;
+      var sliceEnd = idealSliceLength * order - 1;
+      return clonedList.splice(sliceStart, idealSliceLength);
+    }
   }
 });
 
@@ -2677,6 +2788,8 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _json_Header_menus_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @json/Header/menus.json */ "./resources/assets/json/Header/menus.json");
 var _json_Header_menus_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/Header/menus.json */ "./resources/assets/json/Header/menus.json", 1);
+//
+//
 //
 //
 //
@@ -33601,20 +33714,7 @@ var render = function() {
       _vm._v(" "),
       _c("laravel-support"),
       _vm._v(" "),
-      _c("section", { staticClass: "row" }, [
-        _c("h1", [_vm._v("Modul lengkap untuk menjalankan aplikasi PHP Anda")]),
-        _vm._v(" "),
-        _c(
-          "ul",
-          {},
-          _vm._l(_vm.phpModules, function(module, idx) {
-            return _c("li", [
-              _vm._v("\n                " + _vm._s(module) + "\n            ")
-            ])
-          }),
-          0
-        )
-      ]),
+      _c("php-modules"),
       _vm._v(" "),
       _vm._m(0),
       _vm._v(" "),
@@ -33898,11 +33998,15 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-md-12 text-center" }, [
-      _c("h2", { staticClass: "text-montserrat-light text-capitalize" }, [
-        _vm._v(
-          "\n                    Semua paket hosting sudah termasuk\n                "
-        )
-      ])
+      _c(
+        "h2",
+        { staticClass: "text-montserrat-light text-capitalize bundles__title" },
+        [
+          _vm._v(
+            "\n                    Semua paket hosting sudah termasuk\n                "
+          )
+        ]
+      )
     ])
   }
 ]
@@ -34260,7 +34364,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("section", { staticClass: "main-hero" }, [
+  return _c("section", { staticClass: "main-hero no-padding-bottom" }, [
     _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "row main-hero__row" }, [
         _vm._m(0),
@@ -34336,9 +34440,154 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-md-5 main-hero__image" }, [
       _c("img", {
-        attrs: { src: __webpack_require__(/*! @svg/illustration banner PHP hosting-01.svg */ "./resources/assets/svg/illustration banner PHP hosting-01.svg") }
+        attrs: {
+          src: __webpack_require__(/*! @svg/illustration banner support laravel hosting.svg */ "./resources/assets/svg/illustration banner support laravel hosting.svg")
+        }
       })
     ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/assets/js/components/Main/PhpModules.vue?vue&type=template&id=463cf1be&":
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/assets/js/components/Main/PhpModules.vue?vue&type=template&id=463cf1be& ***!
+  \*************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("section", { staticClass: "main-phpmodules" }, [
+    _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "row" }, [
+        _vm._m(0),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-3" }, [
+          _c(
+            "ul",
+            { staticClass: "php-modules-list" },
+            _vm._l(_vm.sliceModule(_vm.list.phpModules, 1), function(
+              module,
+              idx
+            ) {
+              return _c(
+                "li",
+                { key: "module" + idx, staticClass: "php-modules-list__item" },
+                [
+                  _vm._v(
+                    "\n                        " +
+                      _vm._s(module) +
+                      "\n                    "
+                  )
+                ]
+              )
+            }),
+            0
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-3" }, [
+          _c(
+            "ul",
+            { staticClass: "php-modules-list" },
+            _vm._l(_vm.sliceModule(_vm.list.phpModules, 2), function(
+              module,
+              idx
+            ) {
+              return _c(
+                "li",
+                { key: "module" + idx, staticClass: "php-modules-list__item" },
+                [
+                  _vm._v(
+                    "\n                        " +
+                      _vm._s(module) +
+                      "\n                    "
+                  )
+                ]
+              )
+            }),
+            0
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-3" }, [
+          _c(
+            "ul",
+            { staticClass: "php-modules-list" },
+            _vm._l(_vm.sliceModule(_vm.list.phpModules, 3), function(
+              module,
+              idx
+            ) {
+              return _c(
+                "li",
+                { key: "module" + idx, staticClass: "php-modules-list__item" },
+                [
+                  _vm._v(
+                    "\n                        " +
+                      _vm._s(module) +
+                      "\n                    "
+                  )
+                ]
+              )
+            }),
+            0
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-3" }, [
+          _c(
+            "ul",
+            { staticClass: "php-modules-list" },
+            _vm._l(_vm.sliceModule(_vm.list.phpModules, 4), function(
+              module,
+              idx
+            ) {
+              return _c(
+                "li",
+                { key: "module" + idx, staticClass: "php-modules-list__item" },
+                [
+                  _vm._v(
+                    "\n                        " +
+                      _vm._s(module) +
+                      "\n                    "
+                  )
+                ]
+              )
+            }),
+            0
+          )
+        ])
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "col-md-12 main-phpmodules__header text-center" },
+      [
+        _c("h1", { staticClass: "header__title" }, [
+          _vm._v(
+            "\n                    Modul lengkap untuk menjalankan aplikasi PHP Anda\n                "
+          )
+        ])
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -34362,7 +34611,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container-fluid" }, [
+  return _c("div", { staticClass: "container-fluid footer--wrapper" }, [
     _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "row" }, [
         _vm._m(0),
@@ -34713,7 +34962,7 @@ var render = function() {
   return _c("section", { staticClass: "header-nav" }, [
     _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "row header-nav__row" }, [
-        _vm._m(0),
+        _c("div", { staticClass: "col-md-2 header-nav__logo" }),
         _vm._v(" "),
         _c(
           "nav",
@@ -34722,16 +34971,18 @@ var render = function() {
             _c(
               "ul",
               { staticClass: "menus-list" },
-              _vm._l(_vm.menus, function(menuItem, idx) {
+              _vm._l(_vm.menus, function(menu, idx) {
                 return _c(
                   "li",
                   { key: "menu" + idx, staticClass: "menus-list__item" },
                   [
-                    _vm._v(
-                      "\n\t\t\t\t\t\t" +
-                        _vm._s(menuItem || "Menu") +
-                        "\n\t\t\t\t\t"
-                    )
+                    _c("a", { attrs: { href: "menu.url || '#'" } }, [
+                      _vm._v(
+                        "\n\t\t\t\t\t\t\t" +
+                          _vm._s(menu.text || "Menu") +
+                          "\n\t\t\t\t\t\t"
+                      )
+                    ])
                   ]
                 )
               }),
@@ -34743,19 +34994,7 @@ var render = function() {
     ])
   ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-2 header-nav__logo" }, [
-      _c("img", {
-        staticClass: "logo__image",
-        attrs: { src: __webpack_require__(/*! @images/logo.png */ "./resources/assets/images/logo.png") }
-      })
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -46930,17 +47169,6 @@ module.exports = "/images/Image support.png?a650f1f107bd550da44ee365ed7f3e02";
 
 /***/ }),
 
-/***/ "./resources/assets/images/logo.png":
-/*!******************************************!*\
-  !*** ./resources/assets/images/logo.png ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/logo.png?4d8ee90b726c156b478e4f19e81d52be";
-
-/***/ }),
-
 /***/ "./resources/assets/js/app.js":
 /*!************************************!*\
   !*** ./resources/assets/js/app.js ***!
@@ -47596,6 +47824,76 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/assets/js/components/Main/PhpModules.vue":
+/*!************************************************************!*\
+  !*** ./resources/assets/js/components/Main/PhpModules.vue ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _PhpModules_vue_vue_type_template_id_463cf1be___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PhpModules.vue?vue&type=template&id=463cf1be& */ "./resources/assets/js/components/Main/PhpModules.vue?vue&type=template&id=463cf1be&");
+/* harmony import */ var _PhpModules_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PhpModules.vue?vue&type=script&lang=js& */ "./resources/assets/js/components/Main/PhpModules.vue?vue&type=script&lang=js&");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _PhpModules_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _PhpModules_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _PhpModules_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _PhpModules_vue_vue_type_template_id_463cf1be___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _PhpModules_vue_vue_type_template_id_463cf1be___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/assets/js/components/Main/PhpModules.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/assets/js/components/Main/PhpModules.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************!*\
+  !*** ./resources/assets/js/components/Main/PhpModules.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_PhpModules_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./PhpModules.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/assets/js/components/Main/PhpModules.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_PhpModules_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/assets/js/components/Main/PhpModules.vue?vue&type=template&id=463cf1be&":
+/*!*******************************************************************************************!*\
+  !*** ./resources/assets/js/components/Main/PhpModules.vue?vue&type=template&id=463cf1be& ***!
+  \*******************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PhpModules_vue_vue_type_template_id_463cf1be___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./PhpModules.vue?vue&type=template&id=463cf1be& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/assets/js/components/Main/PhpModules.vue?vue&type=template&id=463cf1be&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PhpModules_vue_vue_type_template_id_463cf1be___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PhpModules_vue_vue_type_template_id_463cf1be___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/assets/js/components/Master/Footer.vue":
 /*!**********************************************************!*\
   !*** ./resources/assets/js/components/Master/Footer.vue ***!
@@ -47879,7 +48177,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[\"Hosting\",\"Domain\",\"Server\",\"Website\",\"Afiliasi\",\"Promo\",\"Pembayaran\",\"Review\",\"Kontak\",\"Blog\"]");
+module.exports = JSON.parse("[{\"url\":\"\",\"text\":\"Hosting\"},{\"url\":\"\",\"text\":\"Domain\"},{\"url\":\"\",\"text\":\"Server\"},{\"url\":\"\",\"text\":\"Website\"},{\"url\":\"\",\"text\":\"Afiliasi\"},{\"url\":\"\",\"text\":\"Promo\"},{\"url\":\"\",\"text\":\"Pembayaran\"},{\"url\":\"\",\"text\":\"Review\"},{\"url\":\"\",\"text\":\"Kontak\"},{\"url\":\"\",\"text\":\"Blog\"}]");
 
 /***/ }),
 

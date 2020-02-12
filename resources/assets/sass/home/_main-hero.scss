@@ -4,6 +4,10 @@
 	border-bottom: 1px solid $border-color;
 
 	.main-hero__row {
+		.text__header {
+			margin-bottom: 40px;
+			margin-top: 0;
+		}
 	}
 
 	.main-hero__text {
@@ -16,11 +20,6 @@
 .main-hero .main-hero__text {
 	.text__title {
 		font-family: var(--montserrat-bold);
-	}
-
-	.text__header {
-		margin-bottom: 20px;
-		margin-top: 0;
 	}
 
 	.text__tagline {

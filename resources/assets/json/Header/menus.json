@@ -1,12 +1,42 @@
 [
-	"Hosting",
-	"Domain",
-	"Server",
-	"Website",
-	"Afiliasi",
-	"Promo",
-	"Pembayaran",
-	"Review",
-	"Kontak",
-	"Blog"
+	{
+		"url": "",
+		"text": "Hosting"
+	},
+	{
+		"url": "",
+		"text": "Domain"
+	},
+	{
+		"url": "",
+		"text": "Server"
+	},
+	{
+		"url": "",
+		"text": "Website"
+	},
+	{
+		"url": "",
+		"text": "Afiliasi"
+	},
+	{
+		"url": "",
+		"text": "Promo"
+	},
+	{
+		"url": "",
+		"text": "Pembayaran"
+	},
+	{
+		"url": "",
+		"text": "Review"
+	},
+	{
+		"url": "",
+		"text": "Kontak"
+	},
+	{
+		"url": "",
+		"text": "Blog"
+	}
 ]

@@ -35,8 +35,9 @@
 
 	.header-contact__info {
 		display: flex;
-		justify-content: right;
+		justify-content: flex-end;
 		align-items: center;
+		margin-left: auto;
 		@include fontSize(1.125);
 	}
 }

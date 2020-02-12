@@ -11,6 +11,21 @@
 	}
 }
 
+@mixin createBemStylingWithCustomPropertyAndFixedValue(
+	$propertyName,
+	$propertyValues,
+	$className,
+	$fixedValue,
+	$isImportant: true
+) {
+	@each $value in $propertyValues {
+		.#{$className}-#{$value} {
+			#{$propertyName}-#{$value}: #{$fixedValue}
+				#{if($isImportant, "!important", "")};
+		}
+	}
+}
+
 @mixin create2DBemStyling(
 	$propertyName,
 	$propertyValues,

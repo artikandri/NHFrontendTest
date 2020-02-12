@@ -3,7 +3,9 @@
         <div class="container">
             <section class="row main-bundles__row">
                 <div class="col-md-12 text-center">
-                    <h2 class="text-montserrat-light text-capitalize">
+                    <h2
+                        class="text-montserrat-light text-capitalize bundles__title"
+                    >
                         Semua paket hosting sudah termasuk
                     </h2>
                 </div>

@@ -11,5 +11,19 @@ $displays: (
 	"table-cell"
 );
 
+$margins: ("top", "bottom", "right", "left");
+
 @include createBemStyling("position", $positions, "position");
 @include createBemStyling("display", $displays, "display");
+@include createBemStylingWithCustomPropertyAndFixedValue(
+	"margin",
+	$margins,
+	"no-margin",
+	0
+);
+@include createBemStylingWithCustomPropertyAndFixedValue(
+	"padding",
+	$margins,
+	"no-padding",
+	0
+);

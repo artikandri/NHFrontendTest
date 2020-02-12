@@ -1,0 +1,20 @@
+.main-phpmodules {
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+	.main-phpmodules__header {
+		.header__title {
+			font-family: var(--montserrat-light);
+			margin-bottom: 40px;
+		}
+	}
+
+	.php-modules-list {
+		padding: 0;
+		margin: 0;
+
+		.php-modules-list__item {
+			list-style-type: none;
+		}
+	}
+}

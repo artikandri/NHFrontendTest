@@ -1,5 +1,5 @@
 <template>
-    <section class="main-hero">
+    <section class="main-hero no-padding-bottom">
         <div class="container">
             <div class="row main-hero__row">
                 <div class="col-md-12 text-center">
@@ -48,7 +48,9 @@
                     </p>
                 </article>
                 <div class="col-md-5 main-hero__image">
-                    <img src="@svg/illustration banner PHP hosting-01.svg" />
+                    <img
+                        src="@svg/illustration banner support laravel hosting.svg"
+                    />
                 </div>
             </div>
         </div>
